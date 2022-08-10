@@ -7,7 +7,7 @@
 - 👨‍🔬 Computational Scientist
 - 🔭 PhD student at the Depratment of Physics and Astronomy, Uppsala University, Sweden
 - 💻 Experienced working with Molecular modeling, Drug Designing, RNA-Seq, transcriptomics and genomics data, computational materials science, Quantum transport
-- 🔍 Find out more about me here: www.neralytics.org
+- 🔍 Find out more about me here: https://www.nerdalytics.org
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=TeX&layout=compact)
