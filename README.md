@@ -14,4 +14,4 @@
 
 - 🔍 Find out more about me here: ![Youtube](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
   
-[![Nerdalytics's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA&theme=nightowl)](https://www.youtube.com/channel/UCpKizIKSk8ga_LCI3e3GUig)  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Nerdalytics's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA&theme=nightowl)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
