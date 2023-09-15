@@ -7,7 +7,7 @@
 - 👨‍🔬 Computational Scientist
 - 🔭 Bioinformatician | Data Steward at the German Cancer Research Center (DKFZ), Heidelberg, Germany
 - 💻 Experienced working with Molecular modeling, Drug Designing, RNA-Seq, transcriptomics and genomics data, computational materials science, Quantum transport
-- 🔍 Find out more about me here: ![Youtube](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
+
 
 
 ![Pritam's GitHub stats](https://github-readme-stats.vercel.app/api?username=pritampanda15&show_icons=true&theme=radical)
@@ -15,4 +15,6 @@
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=pritampanda15)
 
-
+- 🔍 Find out more about me here: ![Youtube](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
+  
+[![Nerdalytics's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA&theme=nightowl)](https://www.youtube.com/channel/UCpKizIKSk8ga_LCI3e3GUig)
