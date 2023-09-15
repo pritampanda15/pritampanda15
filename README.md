@@ -44,5 +44,8 @@
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=pritampanda15&limit=5&theme=flat&combine_all_yearly_contributions=true)
+
+### 🔝 Youtube Stats
+[![Pritam's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/pritampkp15"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="pritampkp15" /></a></p><br><br>
