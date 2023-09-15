@@ -10,9 +10,7 @@
 - 🔍 Find out more about me here: https://www.nerdalytics.org
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=TeX&layout=compact)
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pritampanda15)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=TeX&layout=compact) ![Pritam's GitHub stats](https://github-readme-stats.vercel.app/api?username=pritampanda15&show_icons=true&theme=radical)
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=pritampanda15)
 
