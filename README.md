@@ -43,3 +43,9 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pritampanda15&" alt="pritampanda15" /></p>
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=pritampanda15) 
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=pritampanda15&limit=5&theme=flat&combine_all_yearly_contributions=true)
+
+### 📈 My GitHub Contributions
+![Snake animation](https://github.com/pritampanda15/pritampanda15/blob/output/github-contribution-grid-snake.svg)
