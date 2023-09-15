@@ -48,4 +48,10 @@
 ### 🔝 Youtube Stats
 [![Pritam's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
 <h3 align="left">Support:</h3>
+
 <p><a href="https://www.buymeacoffee.com/pritampkp15"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="pritampkp15" /></a></p><br><br>
+
+<h3 align="left">Time spent on my page:</h3>
+<p align="left" dir="auto">
+<a href="https://github.com/tomchen/animated-svg-clock" title="Animated SVG clock"><img src="https://github.com/tomchen/animated-svg-clock/raw/master/clock.svg" alt="Clock" width="200px" height="200px" style="max-width: 100%;"></a>
+</p>
