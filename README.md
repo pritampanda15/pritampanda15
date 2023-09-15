@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pritam (you can call me Panda 🐼)</h1>
 <h3 align="center">A passionate bioinformatician from Germany</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat" alt="pritampanda15" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat" alt="pritampanda15" /> </p>  
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pritampanda15" alt="pritampanda15" /></a> </p>
 
@@ -42,3 +42,4 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pritampanda15&" alt="pritampanda15" /></p>
 
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=pritampanda15) 
