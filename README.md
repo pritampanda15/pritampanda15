@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, You can call me Panda 🐼)</h1>
+<h1 align="center">Hi 👋, (You can call me Panda 🐼)</h1>
 <div align="center"> <img src= "https://github.com/pritampanda15/pritampanda15/blob/main/banner.png"> </div>
 <h3 align="center">Analysis, I believe, is key to any protocol. We as a community have tons of data lying around, which must be made sense of. Here is how I contribute:</h3>
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
