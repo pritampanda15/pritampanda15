@@ -4,7 +4,7 @@
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat" alt="pritampanda15" /> </p>
 
-- 🔭 I’m currently working as [a bioinformatician/data steward at the German Cancer Research Center (DKFZ), Heidelberg, Germany](https://www.linkedin.com/in/pritam-kumar-panda/)
+- 🔭 I’m currently working as a Bioinformatician/Data Steward at the German Cancer Research Center (DKFZ), Heidelberg, Germany 
 
 - 🌱 I’m currently learning **VueJS, Docker, Singularity and Cloud computing**
 
