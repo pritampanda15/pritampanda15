@@ -16,7 +16,7 @@
 
 - 💬 Ask me about **R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics**
 
-- 📫 How to reach me **pritampkp15@gmail.com**
+- 📫 How to reach me **https://bioinfocopilot.tilda.ws**
 
 - ⚡ Fun fact **I love Gaming**
 
