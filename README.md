@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working as a Bioinformatician/Data Scientist at the German Cancer Research Center (DKFZ), Heidelberg, Germany 
 
-- 🌱 I’m currently learning **VueJS, Docker, Singularity and Cloud computing**
+- 🌱 I’m currently learning **NextFlow, Snakemake,  Docker, Singularity and AWS MultiOmics**
 
 - 👯 I’m looking to collaborate on **bioinformatics projects (NGS, Drug discovery Pipelines)**
 
@@ -20,6 +20,7 @@
 
 - ⚡ Fun fact **I love Gaming**
 
+<img src="./profile-3d-contrib/profile-green-animate.svg"
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pritampanda15" alt="pritampanda15" /></a> </p>
 
@@ -55,4 +56,4 @@
 <p align="left" dir="auto">
 <a href="https://github.com/tomchen/animated-svg-clock" title="Animated SVG clock"><img src="https://github.com/tomchen/animated-svg-clock/raw/master/clock.svg" alt="Clock" width="200px" height="200px" style="max-width: 100%;"></a>
 </p>
-![](./profile-3d-contrib/profile-green-animate.svg)
+
