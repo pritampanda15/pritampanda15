@@ -6,8 +6,8 @@
 
 - 🔭 I’m currently working as a Bioinformatician/Data Scientist at the German Cancer Research Center (DKFZ), Heidelberg, Germany 
 
-- 🌱 I’m currently **NextFlow Ambassador and simultaneously learning Snakemake, Docker, Singularity and AWS MultiOmics**
-- Nextflow Ambassador: https://www.nextflow.io/our_ambassadors.html 
+- 🌱 I’m currently being served as **Nextflow Ambassador and simultaneously learning Snakemake, Docker, Singularity and AWS MultiOmics**
+- **Nextflow Ambassador:** https://www.nextflow.io/our_ambassadors.html 
 
 - 👯 I’m looking to collaborate on **bioinformatics projects (NGS, Drug discovery Pipelines)**
 
