@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, (You can call me Panda 🐼)</h1>
-<div align="center"> <img src= "https://github.com/pritampanda15/pritampanda15/blob/main/Banner.png"> </div>
+<div align="center"> <img src= "https://github.com/pritampanda15/pritampanda15/blob/main/Banner_Profile.png"> </div>
 <h3 align="center">Analysis, I believe, is key to any protocol. We as a community have tons of data lying around, which must be made sense of. Here is how I contribute:</h3>
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat" alt="pritampanda15" /> </p>
