@@ -9,7 +9,7 @@
 - 🌱 I’m currently being served as **Nextflow Ambassador and simultaneously learning Snakemake, Docker, Singularity and AWS MultiOmics**
 - **Nextflow Ambassador:** https://www.nextflow.io/our_ambassadors.html
   
-- Also a member of **Sigma Xi: The Scientific Research Honor Society **
+- Also a member of **Sigma Xi: The Scientific Research Honor Society**
 
 - 👯 I’m looking to collaborate on **bioinformatics projects (NGS, Drug discovery Pipelines)**
 
