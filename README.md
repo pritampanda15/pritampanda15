@@ -23,7 +23,7 @@
 
 - ⚡ Fun fact **I love Gaming**
 
-![](./profile-3d-contrib/profile-green-animate.svg) 
+![](./profile-3d-contrib/profile-season-animate.svg) 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pritampanda15" alt="pritampanda15" /></a> </p>
 
