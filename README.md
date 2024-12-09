@@ -19,9 +19,9 @@
 
 - 💬 Ask me about **R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics**
 
-- Portfolio: **https://portfolio-ebon-beta-25.vercel.app**
+- Portfolio: **www.atomodyssey.com**
 
-- 📫 How to reach me **https://bioinfocopilot.tilda.ws**
+- 📫 How to reach me **www.atomodyssey.com**
 
 - ⚡ Fun fact **I love Gaming**
 
