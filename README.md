@@ -4,25 +4,15 @@
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat" alt="pritampanda15" /> </p>
 
-- 🔭 I’m currently working as a Bioinformatician/Data Scientist at the German Cancer Research Center (DKFZ), Heidelberg, Germany 
-
+- 🔭 I’m currently working as a Bioinformatician/Data Scientist at the German Cancer Research Center (DKFZ), Heidelberg, Germany
+- 👨‍💻 My portfolio is available at [Atom Odyssey](https://www.atomodyssey.com)
 - 🌱 I’m currently being served as **Nextflow Ambassador and simultaneously learning Snakemake, Docker, Singularity and AWS MultiOmics**
 - **Nextflow Ambassador:** https://www.nextflow.io/our_ambassadors.html
-  
 - Also a member of **Sigma Xi: The Scientific Research Honor Society**
-
 - 👯 I’m looking to collaborate on **bioinformatics projects (NGS, Drug discovery Pipelines)**
-
-- 🤝 I’m looking for help with **frontend development**
-
-- 👨‍💻 All of my projects are available at [https://github.com/pritampanda15](https://github.com/pritampanda15)
-
+- 🤝 I’m looking for help with **frontend/backend development**
 - 💬 Ask me about **R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics**
-
-- Portfolio: **www.atomodyssey.com**
-
-- 📫 How to reach me **www.atomodyssey.com**
-
+- 📫 Reach me @ **[Stanford Medicine](https://profiles.stanford.edu/pritam-panda)**
 - ⚡ Fun fact **I love Gaming**
 
 ![](./profile-3d-contrib/profile-season-animate.svg) 
