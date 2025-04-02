@@ -24,30 +24,14 @@
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 - 🏛️ **Postdoctoral Scholar** at [Stanford University School of Medicine](https://profiles.stanford.edu/pritam-panda) in the Department of Anesthesiology, Perioperative, and Pain Medicine
-  
 - 🧪 **Research Focus:** Designing novel anesthetics for battlefield conditions using AI-driven protein design and high-throughput virtual screening
-  
 - 🌐 **Portfolio:** [Atom Odyssey](https://www.atomodyssey.com)
-  
 - 🚀 **Roles:** [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html) and member of Sigma Xi: The Scientific Research Honor Society
-  
 - 👯 **Collaboration Interests:** Bioinformatics projects (NGS, Drug discovery Pipelines, AI-based protein modeling)
-  
 - 🤝 **Looking For Help With:** Frontend/backend development
-  
 - 💬 **Expertise Areas:** R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics
-  
 - 📫 **Contact:** [Stanford Medicine Profile](https://med.stanford.edu/profiles/pritam-panda)
-  
 - 🎮 **Fun fact:** I love gaming
-
-<br>
-
-## 🏆 GitHub Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pritampanda15&theme=nord&row=1&column=6" alt="Trophy" />
-</div>
 
 <br>
 
@@ -123,6 +107,18 @@
   </table>
 </div>
 
+### GitHub Contribution Chart
+<a href="https://github.com/KenanGain">
+    <img src="https://ghchart.rshah.org/pritampanda15" alt="Pritam's GitHub Contribution Chart">
+</a>
+
+### 🏆 GitHub Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pritampanda15&theme=nord&row=1&column=6" alt="Trophy" />
+</div>
+
+<br>
 
 ## 🧠 Skills & Tools
 
