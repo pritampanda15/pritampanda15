@@ -6,43 +6,157 @@
 
 <div align="center">
   
-  [![Twitter Follow](https://img.shields.io/twitter/follow/pritamkpanda?logo=twitter&style=for-the-badge)](https://twitter.com/pritamkpanda)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pritam-kumar-panda)
-  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/pritamkpanda?logo=twitter&style=for-the-badge&color=3b82f6)](https://twitter.com/pritamkpanda)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&color=0e76a8)](https://linkedin.com/in/pritam-kumar-panda)
+  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&color=ff0000)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-AtomOdyssey-purple?style=for-the-badge&logo=atom&color=7e22ce)](https://www.atomodyssey.com)
   [![Profile Views](https://komarev.com/ghpvc/?username=pritampanda15&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/pritampanda15)
   
 </div>
 
 <div align="center">
-  <i>Analysis, I believe, is key to any protocol. We as a community have tons of data lying around, which must be made sense of.</i>
+  <blockquote>
+    <i>"Analysis, I believe, is key to any protocol. We as a community have tons of data lying around, which must be made sense of."</i>
+  </blockquote>
+</div>
+
+<hr>
+
+## 🧬 About Me
+
+<table border="0">
+  <tr>
+    <td width="70%">
+      <ul>
+        <li>🏛️ <b>Postdoctoral Scholar</b> at <a href="https://profiles.stanford.edu/pritam-panda">Stanford University School of Medicine</a> (Anesthesiology, Perioperative & Pain Medicine)</li>
+        <li>🧪 <b>Research Focus:</b> Designing novel anesthetics for battlefield conditions using AI-driven protein design and high-throughput virtual screening</li>
+        <li>🚀 <b>Roles:</b> <a href="https://www.nextflow.io/our_ambassadors.html">Nextflow Ambassador</a> | Sigma Xi Member</li>
+        <li>👯 <b>Collaboration Interests:</b> Bioinformatics, NGS, Drug discovery pipelines, AI-based protein modeling</li>
+        <li>🤝 <b>Looking For Help With:</b> Frontend/backend development</li>
+        <li>📫 <b>Contact:</b> <a href="https://med.stanford.edu/profiles/pritam-panda">Stanford Medicine Profile</a></li>
+        <li>🎮 <b>Fun fact:</b> I love gaming</li>
+      </ul>
+    </td>
+    <td width="30%" align="right">
+      <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100%" alt="Coding Animation">
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/AI%20Drug%20Design-%236C3483?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nextflow-%23F39C12?style=for-the-badge&logo=nextflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Quantum%20Chemistry-%230E76A8?style=for-the-badge&logo=quantum&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RNASeq%20Analysis-%231E8449?style=for-the-badge&logo=r&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Protein%20Modeling-%237D3C98?style=for-the-badge&logo=biotech&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Molecular%20Dynamics-%23FF5733?style=for-the-badge&logo=gromacs&logoColor=white"/>
+</div>
+
+<hr>
+
+## 🔬 Research Expertise
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=html&hide_border=true&layout=compact&langs_count=8&theme=radical&bg_color=0,5e60ce,7400b8,6930c3,5390d9,4ea8de&title_color=ffffff&text_color=ffffff" width="48%" alt="Top Languages">
+</div>
+
+<div align="center">
+  <!-- Expertise Distribution Chart - Create this image and host it in your repo -->
+  <img src="https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/expertise-distribution.png" width="700" alt="Expertise Distribution" />
+</div>
+
+<hr>
+
+## 👁️ Profile Visualization
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D Contribution Graph"/>
 </div>
 
 <br>
 
-## Recent Projects
-<div align="center"> <table> <tr> <td align="center"> <a href="https://github.com/pritampanda15/PandaMap-Color"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap-Color/main/logo/pandamap-logo.svg" width="150" alt="PandaMap-Color Logo" /> </a> <br><b>PandaMap-Color</b> </td> <td align="center"> <a href="https://github.com/pritampanda15/PandaMap"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap/main/logo/pandamap-logo.svg" width="150" alt="PandaMap Logo" /> </a> <br><b>PandaMap</b> </td> <td align="center"> <a href="https://github.com/pritampanda15/PandaDock"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaDock/main/logo/pandadock-logo.svg" width="150" alt="PandaDock Logo" /> </a> <br><b>PandaDock</b> </td> </tr> </table> </div>
+## 🚀 Featured Projects
 
-## 🔬 About Me
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/pritampanda15/PandaMap-Color">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap-Color/main/logo/pandamap-logo.svg" width="150" alt="PandaMap-Color Logo" />
+          <br><b>PandaMap-Color</b>
+          <br><small>Enhanced protein mapping with rich visualization</small>
+        </a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/pritampanda15/PandaMap">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap/main/logo/pandamap-logo.svg" width="150" alt="PandaMap Logo" />
+          <br><b>PandaMap</b>
+          <br><small>Intuitive protein structure interaction mapping</small>
+        </a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/pritampanda15/PandaDock">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaDock/main/logo/pandadock-logo.svg" width="150" alt="PandaDock Logo" />
+          <br><b>PandaDock</b>
+          <br><small>Streamlined molecular docking framework</small>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+<div align="center">
+  <!-- Project Timeline Chart - Create this as a Mermaid diagram -->
 
-- 🏛️ **Postdoctoral Scholar** at [Stanford University School of Medicine](https://profiles.stanford.edu/pritam-panda) in the Department of Anesthesiology, Perioperative, and Pain Medicine
-- 🧪 **Research Focus:** Designing novel anesthetics for battlefield conditions using AI-driven protein design and high-throughput virtual screening
-- <div align="center"> <table> <tr> <td align="center"> <img src="https://img.shields.io/badge/AI%20Drug%20Design-%236C3483?style=for-the-badge&logo=python&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Nextflow-%23F39C12?style=for-the-badge&logo=nextflow&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Quantum%20Chemistry-%230E76A8?style=for-the-badge&logo=quantum&logoColor=white"/> </td> </tr> <tr> <td align="center"> <img src="https://img.shields.io/badge/RNASeq%20Analysis-%231E8449?style=for-the-badge&logo=r&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Protein%20Modeling-%237D3C98?style=for-the-badge&logo=biotech&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Molecular%20Dynamics-%23FF5733?style=for-the-badge&logo=gromacs&logoColor=white"/> </td> </tr> </table> </div> 
-- 🌐 **Portfolio:** [Atom Odyssey](https://www.atomodyssey.com)
-- 🚀 **Roles:** [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html)
-- <div align="left"> <table> <tr> <td align="center"> <img src="https://img.shields.io/badge/-Nextflow%20Ambassador-blue?style=for-the-badge&logo=nextflow&logoColor=white" /> </td> <td align="center"> <img src="https://img.shields.io/badge/-Sigma%20Xi%20Member-green?style=for-the-badge&logo=researchgate&logoColor=white" /> </td> <td align="center"> <img src="https://img.shields.io/badge/-Molecular%20Docking%20%7C%20MD-red?style=for-the-badge&logo=chemistry&logoColor=white" /> </td> </tr> </table> </div>
-- 👯 **Collaboration Interests:** Bioinformatics projects (NGS, Drug discovery Pipelines, AI-based protein modeling)
-- 🤝 **Looking For Help With:** Frontend/backend development
-- 💬 **Expertise Areas:** R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics
-- 📫 **Contact:** [Stanford Medicine Profile](https://med.stanford.edu/profiles/pritam-panda)
-- 🎮 **Fun fact:** I love gaming
-<br>
+```mermaid
+gantt
+    title Project Impact & Development Timeline
+    dateFormat  YYYY-MM
+    axisFormat  %Y
+    section PandaDock
+    Initial Development    :2022-01, 2022-06
+    Feature Expansion      :2022-06, 2023-02
+    section PandaMap
+    Development Phase      :2022-08, 2023-03
+    Enhancement            :2023-03, 2023-08
+    section PandaMap-Color
+    Initial Release        :2023-05, 2023-09
+    Advanced Features      :2023-09, 2024-04
+    Future Plans           :2024-04, 2025-01
+```
 
+</div>
 
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaDock">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaDock&theme=radical&hide_border=true&border_radius=15&bg_color=0,5e60ce,7400b8,6930c3" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaMap">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaMap&theme=radical&hide_border=true&border_radius=15&bg_color=0,6930c3,5390d9,4ea8de" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaMap-Color">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaMap-Color&theme=radical&hide_border=true&border_radius=15&bg_color=0,5390d9,4ea8de,48bfe3" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/pritampanda15/Grid-Box-Generator">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Grid-Box-Generator&theme=radical&hide_border=true&border_radius=15&bg_color=0,48bfe3,56cfe1,64dfdf" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-
-
+<hr>
 
 ## 📊 GitHub Stats
 
@@ -116,18 +230,9 @@
   </table>
 </div>
 
-### GitHub Contribution Chart
-<a href="https://github.com/KenanGain">
-    <img src="https://ghchart.rshah.org/pritampanda15" alt="Pritam's GitHub Contribution Chart">
-</a>
+## 💻 Tech Stack & Development Tools
 
-### 🏆 GitHub Achievements
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pritampanda15&theme=nord&row=1&column=6" alt="Trophy" />
-</div>
-
-<br>
 
 ## 🧠 Skills & Tools
 
@@ -192,15 +297,39 @@
 
 <br>
 
-## 📺 Latest YouTube Videos
+## 📺 YouTube Channel
 
 <div align="center">
-  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA">
+  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA" style="position: relative; display: inline-block;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(94,96,206,0.85) 0%, rgba(116,0,184,0.85) 25%, rgba(105,48,195,0.85) 50%, rgba(83,144,217,0.85) 75%, rgba(78,168,222,0.85) 100%); border-radius: 6px; mix-blend-mode: color;"></div>
     <img src="https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA" alt="YouTube Stats"/>
   </a>
 </div>
 
-<br>
+<div align="center">
+  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCUzX122_yansSytois8gZOA?style=for-the-badge&logo=youtube&color=5e60ce&label=SUBSCRIBERS"/>
+  </a>
+  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA">
+    <img src="https://img.shields.io/youtube/channel/views/UCUzX122_yansSytois8gZOA?style=for-the-badge&logo=youtube&color=7400b8&label=TOTAL%20VIEWS"/>
+  </a>
+</div>
+
+<hr>
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pritampanda15&theme=radical&row=1&column=6&margin-w=15&no-frame=true" alt="Trophy" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/pritampanda15">
+    <img src="https://ghchart.rshah.org/5e60ce/pritampanda15" alt="Pritam's GitHub Contribution Chart" width="90%">
+  </a>
+</div>
+
+<hr>
 
 ## 🤝 Top Contributed Repositories
 
@@ -210,13 +339,6 @@
 
 <br>
 
-## 👁️ Profile Visualization
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D Contribution Graph"/>
-</div>
-
-<br>
 
 ## ☕ Support My Work
 
@@ -225,8 +347,6 @@
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me A Coffee"/>
   </a>
 </div>
-
-<br>
 
 ## ⏰ Time Spent Here
 
@@ -241,3 +361,11 @@
 <div align="center">
   <i>Thanks for visiting my profile! Have a great day! 😊</i>
 </div>
+<br>
+
+
+<!-- Created with ❤️ by Pritam Panda -->
+
+
+
+
