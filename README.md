@@ -53,15 +53,75 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pritampanda15&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170px" />
-</div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pritampanda15&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Languages" />
-</div>
-
+ 
+  <img src="https://streak-stats.demolab.com/?user=pritampanda15&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
+  <br>
+   <img src="https://github-readme-activity-graph.vercel.app/graph?username=pritampanda15&custom_title=Pritam's%20GitHub%20Activity%20Graph&hide_border=true&border_radius=15&bg_color=000000&color=FFD700&line=1E90FF&point=1E90FF&area_color=000000&title_color=FFD700&area=true" alt="GitHub Activity Graph" />
 <br>
+<div align="center">
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=html&hide_border=true&layout=compact&langs_count=8&theme=highcontrast" alt="Top Languages">
+    </td>
+    <td>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pritampanda15&theme=highcontrast&hide_border=true" alt="Repos Per Language">
+    </td>
+    <td>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pritampanda15&theme=highcontrast&hide_border=true" alt="Most Commit Language">
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<img src="https://github-readme-stats.vercel.app/api?username=pritampanda15&hide_border=true&border_radius=15&show_icons=true&theme=highcontrast" alt="Pritam's GitHub stats">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pritampanda15&theme=highcontrast&hide_border=true">
+
+### Top Repositories
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaDock">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=fast-gemini-nano&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaMap">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Weather-3d-ai-app&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/pritampanda15/PandaMap-Color">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=moviedjangoai&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/pritampanda15/Grid-Box-Generator">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=speech-to-text&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/pritampanda15/Structify-Chemical-Structure-Converter">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=SmolLM&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/pritampanda15/Molecular-Dynamics">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Llama-3.2_running_locally&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🧠 Skills & Tools
 
