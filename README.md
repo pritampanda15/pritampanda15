@@ -115,7 +115,7 @@
         </a>
       </td>
       <td>
-        <a href="https://github.com/pritampanda15/Molecular-Dynamics">
+        <a href="https://github.com/pritampanda15/Molecular-Dynamics.git">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Llama-3.2_running_locally&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
