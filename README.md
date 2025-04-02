@@ -87,41 +87,42 @@
     <tr>
       <td>
         <a href="https://github.com/pritampanda15/PandaDock">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=fast-gemini-nano&theme=highcontrast&hide_border=true&border_radius=15" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaDock&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
       <td>
         <a href="https://github.com/pritampanda15/PandaMap">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Weather-3d-ai-app&theme=highcontrast&hide_border=true&border_radius=15" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaMap&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/pritampanda15/PandaMap-Color">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=moviedjangoai&theme=highcontrast&hide_border=true&border_radius=15" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=PandaMap-Color&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
       <td>
         <a href="https://github.com/pritampanda15/Grid-Box-Generator">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=speech-to-text&theme=highcontrast&hide_border=true&border_radius=15" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Grid-Box-Generator&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/pritampanda15/Structify-Chemical-Structure-Converter">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=SmolLM&theme=highcontrast&hide_border=true&border_radius=15" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Structify-Chemical-Structure-Converter&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
       <td>
-        <a href="https://github.com/pritampanda15/Molecular-Dynamics.git">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Llama-3.2_running_locally&theme=highcontrast&hide_border=true&border_radius=15" />
+        <a href="https://github.com/pritampanda15/Molecular-Dynamics">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritampanda15&repo=Molecular-Dynamics&theme=highcontrast&hide_border=true&border_radius=15" />
         </a>
       </td>
     </tr>
   </table>
 </div>
+
 
 ## 🧠 Skills & Tools
 
