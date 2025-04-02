@@ -55,7 +55,6 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=pritampanda15&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170px" />
-  <img src="https://streak-stats.demolab.com/?user=pritampanda15&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170px" />
 </div>
 
 <div align="center">
