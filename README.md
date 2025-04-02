@@ -19,21 +19,30 @@
 
 <br>
 
+## Recent Projects
+<div align="center"> <table> <tr> <td align="center"> <a href="https://github.com/pritampanda15/PandaMap-Color"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap-Color/main/logo/pandamap-logo.svg" width="150" alt="PandaMap-Color Logo" /> </a> <br><b>PandaMap-Color</b> </td> <td align="center"> <a href="https://github.com/pritampanda15/PandaMap"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap/main/logo/pandamap-logo.svg" width="150" alt="PandaMap Logo" /> </a> <br><b>PandaMap</b> </td> <td align="center"> <a href="https://github.com/pritampanda15/PandaDock"> <img src="https://raw.githubusercontent.com/pritampanda15/PandaDock/main/logo/pandadock-logo.svg" width="150" alt="PandaDock Logo" /> </a> <br><b>PandaDock</b> </td> </tr> </table> </div>
+
 ## 🔬 About Me
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 - 🏛️ **Postdoctoral Scholar** at [Stanford University School of Medicine](https://profiles.stanford.edu/pritam-panda) in the Department of Anesthesiology, Perioperative, and Pain Medicine
 - 🧪 **Research Focus:** Designing novel anesthetics for battlefield conditions using AI-driven protein design and high-throughput virtual screening
+- <div align="center"> <table> <tr> <td align="center"> <img src="https://img.shields.io/badge/AI%20Drug%20Design-%236C3483?style=for-the-badge&logo=python&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Nextflow-%23F39C12?style=for-the-badge&logo=nextflow&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Quantum%20Chemistry-%230E76A8?style=for-the-badge&logo=quantum&logoColor=white"/> </td> </tr> <tr> <td align="center"> <img src="https://img.shields.io/badge/RNASeq%20Analysis-%231E8449?style=for-the-badge&logo=r&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Protein%20Modeling-%237D3C98?style=for-the-badge&logo=biotech&logoColor=white"/> </td> <td align="center"> <img src="https://img.shields.io/badge/Molecular%20Dynamics-%23FF5733?style=for-the-badge&logo=gromacs&logoColor=white"/> </td> </tr> </table> </div> 
 - 🌐 **Portfolio:** [Atom Odyssey](https://www.atomodyssey.com)
-- 🚀 **Roles:** [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html) and member of Sigma Xi: The Scientific Research Honor Society
+- 🚀 **Roles:** [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html)
+- <div align="left"> <table> <tr> <td align="center"> <img src="https://img.shields.io/badge/-Nextflow%20Ambassador-blue?style=for-the-badge&logo=nextflow&logoColor=white" /> </td> <td align="center"> <img src="https://img.shields.io/badge/-Sigma%20Xi%20Member-green?style=for-the-badge&logo=researchgate&logoColor=white" /> </td> <td align="center"> <img src="https://img.shields.io/badge/-Molecular%20Docking%20%7C%20MD-red?style=for-the-badge&logo=chemistry&logoColor=white" /> </td> </tr> </table> </div>
 - 👯 **Collaboration Interests:** Bioinformatics projects (NGS, Drug discovery Pipelines, AI-based protein modeling)
 - 🤝 **Looking For Help With:** Frontend/backend development
 - 💬 **Expertise Areas:** R, Python, NGS, Siesta, Gromacs, Molecular docking/dynamics
 - 📫 **Contact:** [Stanford Medicine Profile](https://med.stanford.edu/profiles/pritam-panda)
 - 🎮 **Fun fact:** I love gaming
-
 <br>
+
+
+
+
+
 
 ## 📊 GitHub Stats
 
