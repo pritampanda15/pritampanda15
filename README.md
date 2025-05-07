@@ -60,11 +60,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritampanda15&hide=html&hide_border=true&layout=compact&langs_count=8&theme=radical&bg_color=0,5e60ce,7400b8,6930c3,5390d9,4ea8de&title_color=ffffff&text_color=ffffff" width="48%" alt="Top Languages">
 </div>
 
-<div align="center">
-  <!-- Expertise Distribution Chart - Create this image and host it in your repo -->
-  <img src="https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/expertise-distribution.png" width="700" alt="Expertise Distribution" />
-</div>
-
 <hr>
 
 ## 👁️ Profile Visualization
