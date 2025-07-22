@@ -121,13 +121,6 @@ pie title Coding Activity Distribution
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': { 'primaryColor': '#5e60ce', 'primaryTextColor': '#fff', 'primaryBorderColor': '#7400b8', 'lineColor': '#6930c3'}}}%%
 gitgraph
-<<<<<<< HEAD
-=======
-    options:
-        showBranches: true
-        showCommitLabel: true
-        mainBranchName: "main"
->>>>>>> 288afade333ac5208ecb2f8d675136e276c6ff89
     commit id: "🎯 Initial Setup"
     branch feature/pandadock
     checkout feature/pandadock
