@@ -116,52 +116,22 @@ pie title Coding Activity Distribution
 
 </div>
 
-<div align="center">
-  
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor': '#5e60ce', 'primaryTextColor': '#fff', 'primaryBorderColor': '#7400b8', 'lineColor': '#6930c3'}}}%%
-graph TD
-    A[🎯 Initial Setup] --> B[feature/pandadock]
-    B --> C[🔬 PandaDock v1.0]
-    C --> D[⚡ Performance Boost]
-    D --> E[Merge to main]
-    A --> F[feature/pandamap]
-    F --> G[🗺️ PandaMap Core]
-    G --> H[🎨 Color Enhancement]
-    H --> I[Merge to main]
-    E --> J[🚀 Production Deploy]
-    I --> J
-    
-    style A fill:#5e60ce,stroke:#fff,stroke-width:2px,color:#fff
-    style J fill:#7400b8,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#6930c3,stroke:#fff,stroke-width:2px,color:#fff
-    style G fill:#5390d9,stroke:#fff,stroke-width:2px,color:#fff
-```
-
-</div>
-
-<br>
-
-## 🚀 Flagship Projects Portfolio
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:5e60ce,100:7400b8&height=60&section=header&text=🧬%20Computational%20Biology%20%26%20Drug%20Discovery%20Suite&fontSize=20&fontColor=ffffff" alt="Project Header"/>
-</div>
+## Flagship Projects Portfolio
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="33%">
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 10px;">
-          <a href="https://github.com/pritampanda15/PandaProt">
-            <img src="https://raw.githubusercontent.com/pritampanda15/PandaProt/main/logo/pandaprot-logo.svg" width="120" alt="PandaProt Logo" />
+          <a href="https://github.com/pritampanda15/PandaMap-Color">
+            <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap-Color/main/logo/pandamap-logo.svg" width="120" alt="PandaMap-Color Logo" />
             <br><br>
-            <img src="https://img.shields.io/badge/PandaProt-v1.5-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
-            <br><b>🧬 Protein Analysis Suite</b>
-            <br><small>Sequence analysis • Structure prediction • Functional annotation</small>
+            <img src="https://img.shields.io/badge/PandaMap--Color-v2.1-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
+            <br><b>🎨 Enhanced Protein Visualization</b>
+            <br><small>Rich color mapping • Interactive 3D views • Publication-ready figures</small>
             <br><br>
-            <img src="https://img.shields.io/github/stars/pritampanda15/PandaProt?style=social"/>
-            <img src="https://img.shields.io/github/forks/pritampanda15/PandaProt?style=social"/>
+            <img src="https://img.shields.io/github/stars/pritampanda15/PandaMap-Color?style=social"/>
+            <img src="https://img.shields.io/github/forks/pritampanda15/PandaMap-Color?style=social"/>
           </a>
         </div>
       </td>
@@ -206,11 +176,11 @@ graph TD
 graph TD
     A[🧬 Research Focus] --> B[PandaDock<br/>🚢 Molecular Docking]
     A --> C[PandaMap<br/>🗺️ Structure Analysis]
-    A --> D[PandaMap-Color<br/>🎨 Visualization]
+    A --> D[PandaProt<br/>🎨 Visualization]
     
-    B --> E[500+ Citations<br/>🎓 Academic Impact]
-    C --> F[1000+ Downloads<br/>📊 Community Adoption]
-    D --> G[Featured in<br/>🏆 Nature Protocols]
+    B --> E[In Preprint<br/>🎓 Academic Impact]
+    C --> F[10000+ Downloads<br/>📊 Community Adoption]
+    D --> G[Featured in<br/>🏆 Stanford Conference]
     
     E --> H[🌟 Drug Discovery Pipeline]
     F --> H
@@ -681,38 +651,6 @@ print(researcher.get_mission())
 ```
 
 </div>
-
-### 🏆 Achievement Showcase
-
-<div align="center">
-  
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor': '#5e60ce', 'primaryTextColor': '#fff', 'primaryBorderColor': '#7400b8', 'lineColor': '#6930c3'}}}%%
-timeline
-    title 🚀 Pritam's Journey Timeline
-    
-    2018 : Started PhD in Computational Chemistry
-         : First Python program
-    
-    2020 : Published first ML paper
-         : Joined Stanford as Postdoc
-    
-    2021 : Became Nextflow Ambassador
-         : Released PandaDock v1.0
-    
-    2022 : 10+ publications in top journals
-         : PandaMap viral on GitHub
-    
-    2023 : Featured in Nature Protocols
-         : Speaking at 5+ conferences
-    
-    2024 : AI Drug Discovery breakthrough
-         : Leading Stanford research team
-    
-    2025 : Building the future of medicine
-         : Next-gen anesthetic development
-```
-
 </div>
 
 ### 🎊 Visitor Counter & Easter Eggs
