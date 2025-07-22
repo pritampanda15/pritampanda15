@@ -153,15 +153,15 @@ graph TD
     <tr>
       <td align="center" width="33%">
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 10px;">
-          <a href="https://github.com/pritampanda15/PandaMap-Color">
-            <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap-Color/main/logo/pandamap-logo.svg" width="120" alt="PandaMap-Color Logo" />
+          <a href="https://github.com/pritampanda15/PandaProt">
+            <img src="https://raw.githubusercontent.com/pritampanda15/PandaProt/main/logo/pandaprot-logo.svg" width="120" alt="PandaProt Logo" />
             <br><br>
-            <img src="https://img.shields.io/badge/PandaMap--Color-v2.1-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
-            <br><b>🎨 Enhanced Protein Visualization</b>
-            <br><small>Rich color mapping • Interactive 3D views • Publication-ready figures</small>
+            <img src="https://img.shields.io/badge/PandaProt-v1.5-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
+            <br><b>🧬 Protein Analysis Suite</b>
+            <br><small>Sequence analysis • Structure prediction • Functional annotation</small>
             <br><br>
-            <img src="https://img.shields.io/github/stars/pritampanda15/PandaMap-Color?style=social"/>
-            <img src="https://img.shields.io/github/forks/pritampanda15/PandaMap-Color?style=social"/>
+            <img src="https://img.shields.io/github/stars/pritampanda15/PandaProt?style=social"/>
+            <img src="https://img.shields.io/github/forks/pritampanda15/PandaProt?style=social"/>
           </a>
         </div>
       </td>
