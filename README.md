@@ -120,21 +120,22 @@ pie title Coding Activity Distribution
   
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': { 'primaryColor': '#5e60ce', 'primaryTextColor': '#fff', 'primaryBorderColor': '#7400b8', 'lineColor': '#6930c3'}}}%%
-gitgraph:
-    commit id: "Initial Setup"
-    branch feature/pandadock
-    checkout feature/pandadock
-    commit id: "PandaDock v1.0"
-    commit id: "Performance Boost"
-    checkout main
-    merge feature/pandadock
-    branch feature/pandamap
-    checkout feature/pandamap
-    commit id: "PandaMap Core"
-    commit id: "Color Enhancement"
-    checkout main
-    merge feature/pandamap
-    commit id: "Production Deploy"
+graph TD
+    A[🎯 Initial Setup] --> B[feature/pandadock]
+    B --> C[🔬 PandaDock v1.0]
+    C --> D[⚡ Performance Boost]
+    D --> E[Merge to main]
+    A --> F[feature/pandamap]
+    F --> G[🗺️ PandaMap Core]
+    G --> H[🎨 Color Enhancement]
+    H --> I[Merge to main]
+    E --> J[🚀 Production Deploy]
+    I --> J
+    
+    style A fill:#5e60ce,stroke:#fff,stroke-width:2px,color:#fff
+    style J fill:#7400b8,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#6930c3,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#5390d9,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 </div>
