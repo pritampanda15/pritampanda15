@@ -12,7 +12,7 @@
   
   [![Twitter Follow](https://img.shields.io/twitter/follow/pritamkpanda?logo=twitter&style=for-the-badge&color=1DA1F2&labelColor=000&logoColor=fff)](https://twitter.com/pritamkpanda)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pritam-kumar-panda)
-  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA)
+  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q)
   [![Portfolio](https://img.shields.io/badge/Portfolio-AtomOdyssey-7B68EE?style=for-the-badge&logo=atom&logoColor=white)](https://www.atomodyssey.com)
   [![Stanford](https://img.shields.io/badge/Stanford-Medicine-8C1515?style=for-the-badge&logo=stanford&logoColor=white)](https://profiles.stanford.edu/pritam-panda)
   
@@ -542,18 +542,18 @@ mindmap
 ## 📺 YouTube Channel
 
 <div align="center">
-  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA" style="position: relative; display: inline-block;">
+  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q" style="position: relative; display: inline-block;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(94,96,206,0.85) 0%, rgba(116,0,184,0.85) 25%, rgba(105,48,195,0.85) 50%, rgba(83,144,217,0.85) 75%, rgba(78,168,222,0.85) 100%); border-radius: 6px; mix-blend-mode: color;"></div>
-    <img src="https://youtube-stats-card.vercel.app/api?channelid=UCUzX122_yansSytois8gZOA" alt="YouTube Stats"/>
+    <img src="https://youtube-stats-card.vercel.app/api?channelid=UCuguroB_0KTvy3uBSqy8t8Q" alt="YouTube Stats"/>
   </a>
 </div>
 
 <div align="center">
-  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA">
+  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
     <img src="https://img.shields.io/youtube/channel/subscribers/UCUzX122_yansSytois8gZOA?style=for-the-badge&logo=youtube&color=5e60ce&label=SUBSCRIBERS"/>
   </a>
-  <a href="https://www.youtube.com/channel/UCUzX122_yansSytois8gZOA">
-    <img src="https://img.shields.io/youtube/channel/views/UCUzX122_yansSytois8gZOA?style=for-the-badge&logo=youtube&color=7400b8&label=TOTAL%20VIEWS"/>
+  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
+    <img src="https://img.shields.io/youtube/channel/views/UCuguroB_0KTvy3uBSqy8t8Q?style=for-the-badge&logo=youtube&color=7400b8&label=TOTAL%20VIEWS"/>
   </a>
 </div>
 
