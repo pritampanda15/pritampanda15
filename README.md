@@ -550,7 +550,7 @@ mindmap
 
 <div align="center">
   <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
-    <img src="https://img.shields.io/youtube/channel/subscribers/UCUzX122_yansSytois8gZOA?style=for-the-badge&logo=youtube&color=5e60ce&label=SUBSCRIBERS"/>
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCuguroB_0KTvy3uBSqy8t8Q?style=for-the-badge&logo=youtube&color=5e60ce&label=SUBSCRIBERS"/>
   </a>
   <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
     <img src="https://img.shields.io/youtube/channel/views/UCuguroB_0KTvy3uBSqy8t8Q?style=for-the-badge&logo=youtube&color=7400b8&label=TOTAL%20VIEWS"/>
