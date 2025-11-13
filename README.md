@@ -163,6 +163,6 @@ I'm always open to collaboration opportunities in:
 
 **Crafted with dedication to advancing computational biology and precision medicine**
 
-[![Profile Views](https://komarev.com/ghpvc/?username=pritampanda15&color=blue&style=flat)](https://github.com/pritampanda15)
+[![Profile Views](https://komarev.com/ghpvc/?username=pritampanda15&color=green&style=flat)](https://github.com/pritampanda15)
 
 </div>
