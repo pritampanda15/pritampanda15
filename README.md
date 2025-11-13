@@ -7,7 +7,7 @@
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat&logo=google-scholar)](https://scholar.google.com/citations?user=H2ggrzQAAAAJ&hl=en)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7B68EE?style=flat)](https://www.atomodyssey.com)
 [![Stanford Profile](https://img.shields.io/badge/Stanford-Medicine-8C1515?style=flat)](https://profiles.stanford.edu/pritam-panda)
-[![YouTube Channel](https://img.shields.io/badge/YouTube-8C1515?style=flat)](https://www.youtube.com/@Omixium_ai)
+[![YouTube Channel](https://img.shields.io/badge/YouTube-Omixium-8C1515?style=flat)](https://www.youtube.com/@Omixium_ai)
 
 ---
 
@@ -113,25 +113,6 @@ Created comprehensive tutorial series on YouTube covering:
 - Machine learning in bioinformatics
 
 **Impact:** Empowering global learners to adopt computational research tools effectively
-## 📺 YouTube Channel
-
-<div align="center">
-  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q" style="position: relative; display: inline-block;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(94,96,206,0.85) 0%, rgba(116,0,184,0.85) 25%, rgba(105,48,195,0.85) 50%, rgba(83,144,217,0.85) 75%, rgba(78,168,222,0.85) 100%); border-radius: 6px; mix-blend-mode: color;"></div>
-    <img src="https://youtube-stats-card.vercel.app/api?channelid=UCuguroB_0KTvy3uBSqy8t8Q" alt="YouTube Stats"/>
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
-    <img src="https://img.shields.io/youtube/channel/subscribers/UCuguroB_0KTvy3uBSqy8t8Q?style=for-the-badge&logo=youtube&color=5e60ce&label=SUBSCRIBERS"/>
-  </a>
-  <a href="https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q">
-    <img src="https://img.shields.io/youtube/channel/views/UCuguroB_0KTvy3uBSqy8t8Q?style=for-the-badge&logo=youtube&color=7400b8&label=TOTAL%20VIEWS"/>
-  </a>
-</div>
-
-<hr>
 
 ## Connect With Me
 
