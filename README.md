@@ -35,7 +35,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 #### Top languages
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/perl/perl-original.svg" title="Perl" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/r/r-original.svg" title="R" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/groovy/groovy-original.svg" title="Groovy" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Bash" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/julia/julia-original-wordmark.svg" title="Julia" height=50 width=50 />
+<img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/r/r-original.svg" title="R" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Bash" height=50 width=50 />
 
 #### Operating systems
 
@@ -43,7 +43,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 #### Workflow Managers
 
-<img src="https://www.nextflow.io/img/nextflow2014_no-bg.png" title="Nextflow" height=40 width=120 /> <img src="https://avatars.githubusercontent.com/u/33450111?s=200&v=4" title="Snakemake" height=50 width=50 /> [**e-Hive**](https://github.com/Ensembl/ensembl-hive#ehive)
+<img src="https://www.nextflow.io/img/nextflow2014_no-bg.png" title="Nextflow" height=40 width=120 /> <img src="https://avatars.githubusercontent.com/u/33450111?s=200&v=4" title="Snakemake" height=50 width=50 />
 
 </div>
 
@@ -51,15 +51,11 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 #### Fun Frameworks
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/pytest/pytest-original-wordmark.svg" title="PyTest" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MUI" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/terraform/terraform-original-wordmark.svg" title="Terraform" height=50 width=50 />
-
-#### Ambiguous tools
-
-<img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original-wordmark.svg" title="SQLite" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain-wordmark.svg" title="GraphQL" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg" title="Jira" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/confluence/confluence-original-wordmark.svg" title="Confluence" height=50 width=50 />
+<img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original-wordmark.svg" title="FastAPI" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/pytest/pytest-original-wordmark.svg" title="PyTest" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/terraform/terraform-original-wordmark.svg" title="Terraform" height=50 width=50 />
 
 #### Version control tools
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="GitHub" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="GitLab" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/bitbucket/bitbucket-original-wordmark.svg" title="BitBucket" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/azuredevops/azuredevops-plain.svg" title="AzureDevops" height=50 width=50 />
+<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="GitHub" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="GitLab" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/bitbucket/bitbucket-original-wordmark.svg" title="BitBucket" height=50 width=50 /> 
 
 #### Dev Ops
 
@@ -67,7 +63,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 #### CI/CD
 
-<img src="https://www.svgrepo.com/show/374136/travis.svg" title="Travis" height=50 width=50 /> <img src="https://www.svgrepo.com/show/306098/githubactions.svg" title="GitHub Actions" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" title="Jenkins" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS CloudFormation" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/azuredevops/azuredevops-original.svg" title="AzureDevOps" height=50 width=50 /> 
+<img src="https://www.svgrepo.com/show/374136/travis.svg" title="Travis" height=50 width=50 /> <img src="https://www.svgrepo.com/show/306098/githubactions.svg" title="GitHub Actions" height=50 width=50 /> <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS CloudFormation" height=50 width=50 /> 
 
 #### Cloud & Workload managers
 
