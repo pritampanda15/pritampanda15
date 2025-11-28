@@ -77,12 +77,11 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 [![GitHub Streak](https://streak-stats.demolab.com?user=pritampanda15&theme=neon-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly&hide_current_streak=true&hide_longest_streak=true)](https://git.io/streak-stats)
 
 
-  </div>
+</div>
 
 
 ---
-
-## Community Leadership
+<div align="left">
 
 ### Educational Outreach
 Created comprehensive tutorial series on YouTube covering:
@@ -110,7 +109,7 @@ I'm always open to collaboration opportunities in:
 - 🌐 [Portfolio](https://www.atomodyssey.com)
 - 📺 [YouTube](https://www.youtube.com/channel/UCuguroB_0KTvy3uBSqy8t8Q)
 
----
+</div>
 
 ## GitHub Statistics
 
