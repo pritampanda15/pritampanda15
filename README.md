@@ -19,61 +19,28 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 ---
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-34-blue)
+
 **🐱 My GitHub Data** 
 
 > 📦 3.7 MB Used in GitHub's Storage 
  > 
-> 🏆 3 Contributions in the Year 2026
-> 
-> [![Profile Views](https://komarev.com/ghpvc/?username=pritampanda15&color=green&style=flat)](https://github.com/pritampanda15)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                404 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
-🌆 Daytime                548 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.49 % 
-🌃 Evening                196 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.90 % 
-🌙 Night                  2176 commits        ████████████████░░░░░░░░░   65.46 % 
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday                   316 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.51 % 
-Tuesday                  197 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.93 % 
-Wednesday                270 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.12 % 
-Thursday                 316 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.51 % 
-Friday                   290 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
-Saturday                 1768 commits        █████████████░░░░░░░░░░░░   53.19 % 
-Sunday                   167 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.02 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: America/Los_Angeles
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
+> 🏆 6 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 61 Public Repositories 
+ > 
+> 🔑 22 Private Repositories 
+ > 
 **I Mostly Code in Python** 
 
 ```text
-Python                   36 repos            ████████████░░░░░░░░░░░░░   48.00 % 
-HTML                     12 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
-Jupyter Notebook         7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.33 % 
-TypeScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
-JavaScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
+Python                   37 repos            ████████████░░░░░░░░░░░░░   48.68 % 
+HTML                     12 repos            ████░░░░░░░░░░░░░░░░░░░░░   15.79 % 
+Jupyter Notebook         7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.21 % 
+TypeScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+JavaScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
 ```
 
 
@@ -83,7 +50,7 @@ JavaScript               4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 02/01/2026 05:03:44 UTC
+ Last Updated on 02/01/2026 18:45:23 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
