@@ -24,7 +24,8 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 > *"At the heart of every robust scientific protocol lies rigorous analysis. In an era of exponential data generation—where multi-omic, structural, clinical, and high-throughput datasets proliferate—we face not a scarcity of information but a scarcity of synthesis. My work centers on transforming raw biological noise into mechanistic clarity."*
 
 ---
-
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <div align="center">
 
