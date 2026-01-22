@@ -21,7 +21,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%20hrs%2048%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-16-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-13-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -62,17 +62,20 @@ Sunday                   170 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Los_Angeles
 
 💬 Programming Languages: 
-Python                   4 mins              ███████████████████░░░░░░   74.64 % 
-Other                    1 min               ██████░░░░░░░░░░░░░░░░░░░   25.36 % 
+Markdown                 26 mins             █████████████░░░░░░░░░░░░   51.90 % 
+Other                    21 mins             ███████████░░░░░░░░░░░░░░   42.49 % 
+CSV                      1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   02.03 % 
+Nextflow                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
+Mermaid                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
 
 🔥 Editors: 
-VS Code                  6 mins              █████████████████████████   100.00 % 
+VS Code                  51 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Unknown Project          6 mins              █████████████████████████   100.00 % 
+nf-core-vina             51 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      6 mins              █████████████████████████   100.00 % 
+Mac                      51 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -92,7 +95,7 @@ JavaScript               4 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 21/01/2026 18:48:37 UTC
+ Last Updated on 22/01/2026 18:47:23 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
