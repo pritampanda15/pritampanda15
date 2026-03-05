@@ -19,9 +19,9 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%20hrs%2053%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-5%20hrs%201%20min-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-21-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-22-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -62,18 +62,19 @@ Sunday                   160 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Los_Angeles
 
 💬 Programming Languages: 
-YAML                     10 mins             ███████████████████████░░   91.72 % 
-CSS                      0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.35 % 
-HTML                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.93 % 
+YAML                     55 mins             ████████████████░░░░░░░░░   65.92 % 
+HTML                     17 mins             █████░░░░░░░░░░░░░░░░░░░░   20.77 % 
+Text                     10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
 
 🔥 Editors: 
-VS Code                  10 mins             █████████████████████████   100.00 % 
+VS Code                  1 hr 23 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-BoringScience            10 mins             █████████████████████████   100.00 % 
+BoringScience            1 hr 23 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      10 mins             █████████████████████████   100.00 % 
+Mac                      1 hr 23 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -93,7 +94,7 @@ Nextflow                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 04/03/2026 18:48:50 UTC
+ Last Updated on 05/03/2026 19:01:45 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
