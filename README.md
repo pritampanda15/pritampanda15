@@ -19,9 +19,9 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 
 ---
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-11%20hrs%2033%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-12%20hrs%205%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-14-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-13-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -81,11 +81,11 @@ Mac                      32 mins             ███████████�
 **I Mostly Code in Python** 
 
 ```text
-Python                   47 repos            █████████████░░░░░░░░░░░░   53.41 % 
-TypeScript               5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
-Swift                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-JavaScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-Nextflow                 1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
+Python                   46 repos            █████████████░░░░░░░░░░░░   52.87 % 
+TypeScript               5 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.75 % 
+Swift                    4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 % 
+JavaScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 % 
+Nextflow                 1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 % 
 ```
 
 
@@ -95,7 +95,7 @@ Nextflow                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 20/03/2026 18:49:18 UTC
+ Last Updated on 21/03/2026 18:46:42 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
