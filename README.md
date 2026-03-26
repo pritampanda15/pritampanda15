@@ -21,7 +21,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-12%20hrs%205%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-21-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-19-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -95,7 +95,7 @@ Nextflow                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 25/03/2026 18:49:17 UTC
+ Last Updated on 26/03/2026 18:50:16 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
