@@ -21,7 +21,7 @@ I create open-source tools with strong familiarity in full-stack frameworks, uni
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-12%20hrs%205%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-19-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-18-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -62,20 +62,16 @@ Sunday                   160 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Los_Angeles
 
 💬 Programming Languages: 
-Python                   10 mins             █████████░░░░░░░░░░░░░░░░   34.02 % 
-CSS                      10 mins             ████████░░░░░░░░░░░░░░░░░   33.62 % 
-JavaScript               7 mins              ██████░░░░░░░░░░░░░░░░░░░   24.40 % 
-Image (svg)              2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.57 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  32 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-bs-suite                 32 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      32 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -95,7 +91,7 @@ Nextflow                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/pritampanda15/pritampanda15/main/assets/bar_graph.png)
 
 
- Last Updated on 26/03/2026 18:50:16 UTC
+ Last Updated on 27/03/2026 18:49:03 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
