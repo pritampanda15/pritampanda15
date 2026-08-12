@@ -1,6 +1,6 @@
 <div align="center">
 
-![Pritam Kumar Panda — AI for Molecular Discovery](assets/header.svg)
+![Pritam Kumar Panda — AI for Molecular Discovery](assets/header.png)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=800&color=22D3EE&center=true&vCenter=true&width=850&lines=Bioinformatician+%40+Stanford+University;AI+Research+Scientist+%7C+Protein+Modeling+%7C+Drug+Discovery;Turning+molecular+complexity+into+open%2C+usable+software)](https://git.io/typing-svg)
 
