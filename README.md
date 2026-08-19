@@ -44,12 +44,12 @@ I build end-to-end research systems: from foundation models, graph neural networ
       <a href="https://github.com/pritampanda15/PandaDock"><img src="https://img.shields.io/github/last-commit/pritampanda15/PandaDock?style=flat-square&color=8b5cf6" alt="PandaDock last commit"></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/Seqcore">⚡ Seqcore</a></h3>
-      <p>A unified, GPU-accelerated Python library for biological sequence analysis across genomics, proteomics, structural biology, and drug design.</p>
-      <p><b>Design goal:</b> one fast, composable interface for sequence-heavy scientific workflows.</p>
-      <a href="https://github.com/pritampanda15/Seqcore/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/Seqcore?style=flat-square&color=f59e0b" alt="Seqcore stars"></a>
-      <a href="https://github.com/pritampanda15/Seqcore/network/members"><img src="https://img.shields.io/github/forks/pritampanda15/Seqcore?style=flat-square&color=06b6d4" alt="Seqcore forks"></a>
-      <a href="https://github.com/pritampanda15/Seqcore"><img src="https://img.shields.io/github/last-commit/pritampanda15/Seqcore?style=flat-square&color=8b5cf6" alt="Seqcore last commit"></a>
+      <h3><a href="https://github.com/pritampanda15/PandaMap">🐼 PandaMap</a></h3>
+      <p>Protein AND ligAnd interaction MAPper — comprehensive detection, visualization, and empirical binding affinity estimation for protein–ligand complexes.</p>
+      <p><b>Design goal:</b> protein-ligand interactions visualization tool.</p>
+      <a href="https://github.com/pritampanda15/Seqcore/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/PandaMap?style=flat-square&color=f59e0b" alt="Seqcore stars"></a>
+      <a href="https://github.com/pritampanda15/Seqcore/network/members"><img src="https://img.shields.io/github/forks/pritampanda15/PandaMap?style=flat-square&color=06b6d4" alt="Seqcore forks"></a>
+      <a href="https://github.com/pritampanda15/Seqcore"><img src="https://img.shields.io/github/last-commit/pritampanda15/PandaMap?style=flat-square&color=8b5cf6" alt="Seqcore last commit"></a>
     </td>
   </tr>
   <tr>
