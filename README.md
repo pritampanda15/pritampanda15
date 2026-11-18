@@ -52,28 +52,6 @@ I build end-to-end research systems: from foundation models, graph neural networ
       <a href="https://github.com/pritampanda15/Seqcore"><img src="https://img.shields.io/github/last-commit/pritampanda15/PandaMap?style=flat-square&color=8b5cf6" alt="Seqcore last commit"></a>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/ADMET-Prediction-System-Graph-Neural-Networks-with-RAG">🧪 ADMET Intelligence</a></h3>
-      <p>Graph neural networks predict molecular ADMET properties while a RAG-based explainer connects predictions to mechanistic context.</p>
-      <p><code>GNN</code> <code>RAG</code> <code>Molecular ML</code> <code>Explainability</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/Drug-Repurposing-Intelligence-System">🔎 Drug Repurposing Intelligence</a></h3>
-      <p>R-GCNs and biomedical knowledge graphs uncover drug–disease relationships, paired with evidence-aware natural-language explanations.</p>
-      <p><code>Knowledge Graphs</code> <code>R-GCN</code> <code>NLP</code> <code>RAG</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/Oncology-Drug-Response-Prediction-System_DL-RAG">🎯 Oncology Drug Response</a></h3>
-      <p>Deep-learning clinical decision support for predicting cancer cell-line drug response with context-specific RAG explanations.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/Literature-Intelligence">📚 Literature Intelligence</a></h3>
-      <p>Tracks and analyzes PubMed and bioRxiv literature for drug targets, compounds, and therapeutic areas.</p>
-    </td>
-  </tr>
 </table>
 
 <div align="center">
