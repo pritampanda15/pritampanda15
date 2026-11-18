@@ -17,20 +17,13 @@
 
 ## Hello, I’m Pritam 👋
 
-I’m a bioinformatician and AI research scientist at **Stanford University School of Medicine**, working where deep learning, molecular modeling, and scientific software meet. My research focuses on AI-driven protein design and computational drug discovery—including safer anesthetic candidates for field and battlefield medicine.
-
-I build end-to-end research systems: from foundation models, graph neural networks, and molecular simulation to reproducible pipelines, evaluation frameworks, and tools scientists can actually use. Over 8+ years, my work has crossed computational biology, clinical genomics, high-performance computing, and open-source engineering.
-
-> **Research north star:** compress the distance between a promising biological idea and a testable therapeutic hypothesis.
-
-### What I’m exploring now
-
--  Generative and predictive models for protein structure and function
--  Structure-based drug design, molecular docking, and ADMET intelligence
--  Biomedical knowledge graphs, RAG, and evidence-grounded scientific agents
--  Reproducible, scalable pipelines for multi-omics and high-throughput discovery
--  Honest benchmarks that distinguish model performance from scientific utility
-
+AI for Science and computational drug discovery scientist (Stanford Medicine) with 8+ years building protein foundation
+models, SE(3)-equivariant & generative molecular ML, GPU-accelerated docking, alchemical free-energy (FEP) engines,
+virtual-cell perturbation models, and agentic scientific tooling with evals. Scaled closed-loop active learning across
+2.5B+ molecules to advance a DoD/DARPA therapeutic program into Phase II clinical trials. Ranked #1 independent
+participant (2nd overall) in the OpenADMET/ASAP Alchemistry 2027 Blind Challenge; creator of 15 open-source
+tools (PandaVerse); author of 89 Q1 papers (Science Advances, Nature Medicine, Cell Death & Disease, ACS Omega;
+6,560+ citations, h-index 49, i10-index 105) and 1 U.S. patent application.
 ## Flagship open-source work
 
 <table>
