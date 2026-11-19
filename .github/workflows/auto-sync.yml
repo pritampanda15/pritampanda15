@@ -2,8 +2,8 @@ name: Auto-Sync Profile Feeds
 
 on:
   schedule:
-    # Runs every Monday at 06:00 UTC
-    - cron: "0 6 * * 1"
+    # Runs daily at 06:00 UTC
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,12 +21,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync YouTube tutorials, ORCID works & metrics
+      - name: Sync GitHub telemetry SVGs, YouTube tutorials, ORCID works & metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_profile.py
 
       - name: Commit updated profile
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/impact-bento.svg assets/impact-bento-light.svg
-          git diff --staged --quiet || (git commit -m "chore: auto-sync YouTube, ORCID & profile metrics" && git push)
+          git add README.md assets/github-telemetry.svg assets/github-telemetry-light.svg assets/impact-bento.svg assets/impact-bento-light.svg
+          git diff --staged --quiet || (git commit -m "chore: auto-sync GitHub telemetry, YouTube & ORCID feeds" && git push)

@@ -361,8 +361,12 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 
 <br/><br/>
 
-<!-- Self-Hosted Daily Metrics Dashboard (auto-updated daily via .github/workflows/metrics.yml) -->
-<img src="github-metrics.svg" alt="Detailed daily GitHub metrics dashboard" width="96%">
+<!-- Self-Hosted Live GitHub Telemetry Card (auto-updated daily via .github/workflows/auto-sync.yml) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-telemetry.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-telemetry-light.svg">
+  <img alt="Live GitHub engineering telemetry across all repositories" src="assets/github-telemetry.svg" width="100%">
+</picture>
 
 </div>
 
