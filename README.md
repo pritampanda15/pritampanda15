@@ -65,14 +65,14 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 
 <div align="center">
 
-| 🇮🇳 India | 🇩🇪 Freiburg | 🇸🇪 Uppsala & Karolinska | 🇩🇪 DKFZ Heidelberg | 🇺🇸 Stanford Medicine |
+| `IN` India | `DE` Freiburg | `SE` Uppsala & Karolinska | `DE` DKFZ Heidelberg | `US` Stanford Medicine |
 | :---: | :---: | :---: | :---: | :---: |
 | **BSc · MSc · MTech**<br/><sub>Bioinformatics (2009–2016)</sub> | **NGS Data Analyst**<br/><sub>*Nature Medicine* MDS (2017–2018)</sub> | **PhD Physics & Clinical ML**<br/><sub>GENOME2QUNOME · Patent (2018–2023)</sub> | **HPC Bioinformatician**<br/><sub>HI-TRON Portal · Nextflow (2023–2024)</sub> | **Postdoctoral Scholar**<br/><sub>AI Drug Discovery & Bio-Agents (2025–Now)</sub> |
 
 </div>
 
 <details id="one-page-dossier">
-<summary><b>📄 Open One-Page Visual Research Dossier (Stanford · Benchmarks · Career Timeline)</b></summary>
+<summary><b>Open One-Page Visual Research Dossier (Stanford · Benchmarks · Career Timeline)</b></summary>
 <br/>
 <div align="center">
   <img src="assets/header.png" alt="Pritam Kumar Panda — One-Page Visual Research Dossier" width="94%">
@@ -128,7 +128,11 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/PandaDock">🐼 PandaDock</a></h3>
+      <h3>
+        <a href="https://github.com/pritampanda15/PandaDock">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaDock/main/PandaDock.png" alt="PandaDock logo" width="38" height="38" align="absmiddle"/>&nbsp;&nbsp;PandaDock
+        </a>
+      </h3>
       <p><b>GPU-Accelerated Physics + SE(3) GNN Molecular Docking</b> — flexible-ligand docking with an SE(3)-equivariant GNN trained on 741k complexes, rich interaction reports, and desktop/GUI support.</p>
       <p><b>Signal:</b> Pearson <code>R = 0.88</code> on PDBbind refined set · <code>8.5–35×</code> CUDA speedup.</p>
       <a href="https://github.com/pritampanda15/PandaDock/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/PandaDock?style=flat-square&color=f59e0b" alt="PandaDock stars"></a>
@@ -136,7 +140,11 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
       <a href="https://github.com/pritampanda15/PandaDock"><img src="https://img.shields.io/github/last-commit/pritampanda15/PandaDock?style=flat-square&color=8b5cf6" alt="PandaDock last commit"></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/PandaMap">🗺️ PandaMap</a></h3>
+      <h3>
+        <a href="https://github.com/pritampanda15/PandaMap">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaMap/main/logo/pandamap-icon.svg" alt="PandaMap logo" width="36" height="36" align="absmiddle"/>&nbsp;&nbsp;PandaMap
+        </a>
+      </h3>
       <p><b>Protein–Ligand Interaction Mapper</b> — automated detection, publication-grade 2D/3D visualization, and empirical binding affinity estimation for structural biology and CADD workflows.</p>
       <p><b>Signal:</b> Zero-friction structural interaction profiling adopted across drug design pipelines.</p>
       <a href="https://github.com/pritampanda15/PandaMap/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/PandaMap?style=flat-square&color=f59e0b" alt="PandaMap stars"></a>
@@ -146,7 +154,11 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/autoharness">🧪 AutoHarness</a></h3>
+      <h3>
+        <a href="https://github.com/pritampanda15/autoharness">
+          <img src="https://raw.githubusercontent.com/pritampanda15/autoharness/main/assets/logo.svg" alt="AutoHarness logo" width="36" height="36" align="absmiddle"/>&nbsp;&nbsp;AutoHarness
+        </a>
+      </h3>
       <p><b>Autonomous Agent Harness Evaluation Loop</b> — continuously evaluates system prompts, tools, context, and model settings; grades every trial, diffs against last known-good runs, and blocks regressions.</p>
       <p><b>Signal:</b> Built for reliable, eval-driven scientific and engineering AI agents.</p>
       <a href="https://github.com/pritampanda15/autoharness/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/autoharness?style=flat-square&color=f59e0b" alt="AutoHarness stars"></a>
@@ -154,7 +166,11 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
       <img src="https://img.shields.io/badge/Agent_Evals-Python-7C3AED?style=flat-square" alt="Agent Evals">
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/PandaPPI">🧬 PandaPPI</a></h3>
+      <h3>
+        <a href="https://github.com/pritampanda15/PandaPPI">
+          <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/docs/banner.svg" alt="PandaPPI logo" height="38" align="absmiddle"/>
+        </a>
+      </h3>
       <p><b>Macromolecular Interface Mapper</b> — comprehensive profiling and visualization of protein–protein, protein–nucleic acid, and antigen–antibody binding interfaces.</p>
       <p><b>Signal:</b> Extends PandaMap precision to biologics, antibodies, and nucleic acid complexes.</p>
       <a href="https://github.com/pritampanda15/PandaPPI/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/PandaPPI?style=flat-square&color=f59e0b" alt="PandaPPI stars"></a>
@@ -164,7 +180,11 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/Seqcore">⚡ Seqcore</a></h3>
+      <h3>
+        <a href="https://github.com/pritampanda15/Seqcore">
+          <img src="https://raw.githubusercontent.com/pritampanda15/Seqcore/main/logo/seqcore_logo.png" alt="Seqcore logo" width="38" height="38" align="absmiddle"/>&nbsp;&nbsp;Seqcore
+        </a>
+      </h3>
       <p><b>Unified High-Performance Bio-Sequence Library</b> — vectorized 2-bit/ordinal Python toolkit unifying genomics, proteomics, structural biology, and drug design.</p>
       <p><b>Signal:</b> Up to <code>35.8×</code> faster GC &amp; <code>32.3×</code> faster translation vs. Biopython on 100k sequences.</p>
       <a href="https://github.com/pritampanda15/Seqcore/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/Seqcore?style=flat-square&color=f59e0b" alt="Seqcore stars"></a>
@@ -172,7 +192,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
       <a href="https://github.com/pritampanda15/Seqcore"><img src="https://img.shields.io/github/last-commit/pritampanda15/Seqcore?style=flat-square&color=8b5cf6" alt="Seqcore last commit"></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/pritampanda15/AtomicDockExplain">🔬 AtomicDockExplain</a> &amp; <a href="https://github.com/pritampanda15/sair-explorer">🔍 SAIR Explorer</a></h3>
+      <h3><a href="https://github.com/pritampanda15/AtomicDockExplain">AtomicDockExplain</a> &amp; <a href="https://github.com/pritampanda15/sair-explorer">SAIR Explorer</a></h3>
       <p><b>Explainable Docking + 5.2M Boltz-1x DuckDB Explorer</b> — post-docking atom-level energy attribution paired with fast protein/IC50/3D structure exploration over the SandboxAQ SAIR dataset.</p>
       <p><b>Signal:</b> Bridges deep-learning structure predictions with interpretable medicinal chemistry.</p>
       <a href="https://github.com/pritampanda15/AtomicDockExplain/stargazers"><img src="https://img.shields.io/github/stars/pritampanda15/AtomicDockExplain?style=flat-square&color=f59e0b" alt="AtomicDockExplain stars"></a>
@@ -183,7 +203,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 </table>
 
 <details>
-<summary><b>📦 Explore More Open-Source Systems (AI-RAG · Molecular Dynamics · DFT · nf-core Pipelines)</b></summary>
+<summary><b>Explore More Open-Source Systems (AI-RAG · Molecular Dynamics · DFT · nf-core Pipelines)</b></summary>
 <br/>
 
 | Repository | Domain | Highlights |
@@ -257,7 +277,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 Flagship Publications &amp; Patent</h3>
+      <h3>Flagship Publications &amp; Patent</h3>
       <ul>
         <li><b>Science Advances</b> (2020 · 1st Author, 150+ cites) — Structure-Based Drug Designing &amp; Immunoinformatics for SARS-CoV-2</li>
         <li><b>Nature Medicine</b> (2021 · Consortium, 150+ cites) — Clinical Evolution &amp; Genetic Landscape of Clonal Hematopoiesis in SAMD9/9L</li>
@@ -268,7 +288,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🧭 Advisory, Leadership &amp; Recognition</h3>
+      <h3>Advisory, Leadership &amp; Recognition</h3>
       <ul>
         <li><b>Revilico Inc.</b> (2025–Present) — Scientific Advisor · Virtual Cell OS (RevViability 467k pairs, R²=0.87 &amp; RevAssay)</li>
         <li><b>Stanford Medicine</b> (2026) — Best Poster &amp; Technology &amp; Translation (TaT) Fellow</li>
@@ -282,7 +302,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 </table>
 
 <details>
-<summary><b>🔬 Latest Indexed Publications &amp; Preprints (Auto-Synced Weekly from ORCID)</b></summary>
+<summary><b>Latest Indexed Publications &amp; Preprints (Auto-Synced Weekly from ORCID)</b></summary>
 <br/>
 
 <!-- ORCID:START -->
@@ -314,22 +334,22 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
     <td width="25%" align="center" valign="top">
       <a href="https://www.youtube.com/watch?v=sulPb1lpuXE"><img src="https://i.ytimg.com/vi/sulPb1lpuXE/mqdefault.jpg" alt="Seqcore: High-performance biological sequence analysis librar…" width="100%"/></a><br/>
       <a href="https://www.youtube.com/watch?v=sulPb1lpuXE"><sub><b>Seqcore: High-performance biological sequence analysis librar…</b></sub></a><br/>
-      <sub>📅 2026-08-27</sub>
+      <sub>2026-08-27</sub>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="https://www.youtube.com/watch?v=QtHLpzLey7A"><img src="https://i.ytimg.com/vi/QtHLpzLey7A/mqdefault.jpg" alt="Nanoparticle Docking using AutoDock4 | Case Study: Gold Nanop…" width="100%"/></a><br/>
       <a href="https://www.youtube.com/watch?v=QtHLpzLey7A"><sub><b>Nanoparticle Docking using AutoDock4 | Case Study: Gold Nanop…</b></sub></a><br/>
-      <sub>📅 2026-01-29</sub>
+      <sub>2026-01-29</sub>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="https://www.youtube.com/watch?v=bTBwDPKn2uE"><img src="https://i.ytimg.com/vi/bTBwDPKn2uE/mqdefault.jpg" alt="Please visit my GitHub https://github.com/pritampanda15/AI-gl…" width="100%"/></a><br/>
       <a href="https://www.youtube.com/watch?v=bTBwDPKn2uE"><sub><b>Please visit my GitHub https://github.com/pritampanda15/AI-gl…</b></sub></a><br/>
-      <sub>📅 2025-12-28</sub>
+      <sub>2025-12-28</sub>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="https://www.youtube.com/watch?v=tVafC_jy8yA"><img src="https://i.ytimg.com/vi/tVafC_jy8yA/mqdefault.jpg" alt="AI / LLM / RAG / ML in healthcare coming soon" width="100%"/></a><br/>
       <a href="https://www.youtube.com/watch?v=tVafC_jy8yA"><sub><b>AI / LLM / RAG / ML in healthcare coming soon</b></sub></a><br/>
-      <sub>📅 2025-12-06</sub>
+      <sub>2025-12-06</sub>
     </td>
   </tr>
 </table>
@@ -375,7 +395,7 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 </div>
 
 <details>
-<summary><b>⚡ Live Streak, Languages &amp; Commit Velocity Graphs (External Real-Time Endpoints)</b></summary>
+<summary><b>Live Streak, Languages &amp; Commit Velocity Graphs (External Real-Time Endpoints)</b></summary>
 <br/>
 <div align="center">
 

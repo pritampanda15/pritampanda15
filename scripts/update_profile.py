@@ -309,7 +309,7 @@ def fetch_youtube_section(limit: int = 4) -> str | None:
             f'    <td width="25%" align="center" valign="top">\n'
             f'      <a href="{link}"><img src="{thumb}" alt="{escaped_title}" width="100%"/></a><br/>\n'
             f'      <a href="{link}"><sub><b>{escaped_title}</b></sub></a><br/>\n'
-            f'      <sub>📅 {pub}</sub>\n'
+            f'      <sub>{pub}</sub>\n'
             f"    </td>"
         )
 
