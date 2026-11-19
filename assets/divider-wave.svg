@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 26" width="100%" role="presentation">
+  <defs>
+    <linearGradient id="divLine" gradientUnits="userSpaceOnUse" x1="20" y1="13" x2="1180" y2="13">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#22D3EE" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="78%" stop-color="#F43F5E" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="20" y="12.2" width="1160" height="1.6" rx="0.8" fill="url(#divLine)"/>
+
+  <!-- Center Molecular Hexagon Emblem -->
+  <g transform="translate(600, 13)">
+    <polygon points="-11,0 -5.5,-7.5 5.5,-7.5 11,0 5.5,7.5 -5.5,7.5" fill="#0B1224" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.4" fill="#A78BFA"/>
+  </g>
+
+  <!-- Traveling Light Pulses -->
+  <circle cx="300" cy="13" r="2.8" fill="#22D3EE" filter="url(#dotGlow)">
+    <animate attributeName="cx" values="80;584;80" dur="5.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.95;0" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="13" r="2.8" fill="#A78BFA" filter="url(#dotGlow)">
+    <animate attributeName="cx" values="1120;616;1120" dur="5.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.95;0" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

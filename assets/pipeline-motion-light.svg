@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 296" width="100%" role="img" aria-label="Closed-Loop AI Drug Discovery and Agentic Bio-AI Pipeline">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="nodeCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="forwardRail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="35%" stop-color="#8B5CF6"/>
+      <stop offset="70%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="feedbackRail" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="pGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .sans { font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -36; }
+      }
+      @keyframes dashBack {
+        to { stroke-dashoffset: 48; }
+      }
+      .rail-dash { stroke-dasharray: 6 6; animation: dashMove 2.2s linear infinite; }
+      .back-dash { stroke-dasharray: 8 6; animation: dashBack 3.2s linear infinite; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="292" rx="20" fill="url(#pipeBg)" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="28" y="34" class="mono" font-size="11.5" font-weight="700" fill="#0E7490" letter-spacing="1.5">CLOSED-LOOP AI × PHYSICS × AGENTIC DISCOVERY ENGINE</text>
+  <text x="1172" y="34" text-anchor="end" class="mono" font-size="10.5" fill="#475569">END-TO-END RESEARCH-TO-THERAPEUTIC ARCHITECTURE</text>
+
+  <!-- Forward Connector Tracks between the 5 stages (centers at x=126, 363, 600, 837, 1074; y=132) -->
+  <path d="M 226 132 L 263 132" stroke="#22D3EE" stroke-width="2" class="rail-dash" opacity="0.85"/>
+  <path d="M 463 132 L 500 132" stroke="#8B5CF6" stroke-width="2" class="rail-dash" opacity="0.85"/>
+  <path d="M 700 132 L 737 132" stroke="#34D399" stroke-width="2" class="rail-dash" opacity="0.85"/>
+  <path d="M 937 132 L 974 132" stroke="#F59E0B" stroke-width="2" class="rail-dash" opacity="0.85"/>
+
+  <!-- Animated Forward Signal Pulses -->
+  <circle r="4" fill="#0891B2" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M 226 132 L 263 132"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#6D28D9" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="1.8s" begin="0.45s" repeatCount="indefinite" path="M 463 132 L 500 132"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#059669" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M 700 132 L 737 132"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#B45309" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="1.8s" begin="1.35s" repeatCount="indefinite" path="M 937 132 L 974 132"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="1.8s" begin="1.35s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Stage 1 -->
+  <g transform="translate(26, 56)">
+    <rect x="0" y="0" width="200" height="152" rx="14" fill="url(#nodeCard)" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="1.3"/>
+    <rect x="14" y="14" width="38" height="20" rx="6" fill="#CFFAFE" fill-opacity="0.85"/>
+    <text x="33" y="28" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#0E7490">01</text>
+    <text x="186" y="28" text-anchor="end" class="mono" font-size="9.5" fill="#0284C7">OMICS</text>
+    <text x="14" y="58" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Targets &amp; Virtual Cell</text>
+    <line x1="14" y1="69" x2="186" y2="69" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="14" y="90" class="mono" font-size="10.8" fill="#475569">· CRISPRi Perturbation</text>
+    <text x="14" y="109" class="mono" font-size="10.8" fill="#475569">· scRNA-seq &amp; Spatial</text>
+    <text x="14" y="128" class="mono" font-size="10.8" fill="#475569">· WES/WGS · Biomarkers</text>
+  </g>
+
+  <!-- Stage 2 -->
+  <g transform="translate(263, 56)">
+    <rect x="0" y="0" width="200" height="152" rx="14" fill="url(#nodeCard)" stroke="#8B5CF6" stroke-opacity="0.48" stroke-width="1.3"/>
+    <rect x="14" y="14" width="38" height="20" rx="6" fill="#EDE9FE" fill-opacity="0.85"/>
+    <text x="33" y="28" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#5B21B6">02</text>
+    <text x="186" y="28" text-anchor="end" class="mono" font-size="9.5" fill="#6D28D9">GEN-AI</text>
+    <text x="14" y="58" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Foundation Models</text>
+    <line x1="14" y1="69" x2="186" y2="69" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="14" y="90" class="mono" font-size="10.8" fill="#475569">· AlphaFold3 · Boltz-2</text>
+    <text x="14" y="109" class="mono" font-size="10.8" fill="#475569">· SE(3) GNNs · RFdiff</text>
+    <text x="14" y="128" class="mono" font-size="10.8" fill="#475569">· PyTorch · JAX · NeMo</text>
+  </g>
+
+  <!-- Stage 3 -->
+  <g transform="translate(500, 56)">
+    <rect x="0" y="0" width="200" height="152" rx="14" fill="url(#nodeCard)" stroke="#10B981" stroke-opacity="0.48" stroke-width="1.3"/>
+    <rect x="14" y="14" width="38" height="20" rx="6" fill="#D1FAE5" fill-opacity="0.85"/>
+    <text x="33" y="28" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#047857">03</text>
+    <text x="186" y="28" text-anchor="end" class="mono" font-size="9.5" fill="#059669">PHYSICS</text>
+    <text x="14" y="58" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Docking, FEP &amp; QM</text>
+    <line x1="14" y1="69" x2="186" y2="69" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="14" y="90" class="mono" font-size="10.8" fill="#475569">· PandaDock · AutoDock</text>
+    <text x="14" y="109" class="mono" font-size="10.8" fill="#475569">· OpenFE · PMX · GROMACS</text>
+    <text x="14" y="128" class="mono" font-size="10.8" fill="#475569">· MLIPs · Psi4/xTB · DFT</text>
+  </g>
+
+  <!-- Stage 4 -->
+  <g transform="translate(737, 56)">
+    <rect x="0" y="0" width="200" height="152" rx="14" fill="url(#nodeCard)" stroke="#F59E0B" stroke-opacity="0.48" stroke-width="1.3"/>
+    <rect x="14" y="14" width="38" height="20" rx="6" fill="#FEF3C7" fill-opacity="0.85"/>
+    <text x="33" y="28" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#92400E">04</text>
+    <text x="186" y="28" text-anchor="end" class="mono" font-size="9.5" fill="#B45309">AGENTS</text>
+    <text x="14" y="58" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Agentic Harness &amp; Evals</text>
+    <line x1="14" y1="69" x2="186" y2="69" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="14" y="90" class="mono" font-size="10.8" fill="#475569">· Biomni + Antigravity</text>
+    <text x="14" y="109" class="mono" font-size="10.8" fill="#475569">· AutoHarness Eval Loop</text>
+    <text x="14" y="128" class="mono" font-size="10.8" fill="#475569">· Graph RAG · MCP Tools</text>
+  </g>
+
+  <!-- Stage 5 -->
+  <g transform="translate(974, 56)">
+    <rect x="0" y="0" width="200" height="152" rx="14" fill="url(#nodeCard)" stroke="#F43F5E" stroke-opacity="0.48" stroke-width="1.3"/>
+    <rect x="14" y="14" width="38" height="20" rx="6" fill="#FFE4E6" fill-opacity="0.9"/>
+    <text x="33" y="28" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#BE123C">05</text>
+    <text x="186" y="28" text-anchor="end" class="mono" font-size="9.5" fill="#E11D48">CLINIC</text>
+    <text x="14" y="58" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Translational Impact</text>
+    <line x1="14" y1="69" x2="186" y2="69" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="14" y="90" class="mono" font-size="10.8" fill="#475569">· 2.5B+ Screened</text>
+    <text x="14" y="109" class="mono" font-size="10.8" fill="#475569">· Phase II Clinical Trials</text>
+    <text x="14" y="128" class="mono" font-size="10.8" fill="#475569">· Open-Source PandaVerse</text>
+  </g>
+
+  <!-- Closed-Loop Feedback Curve Returning from Stage 5 -> Stage 1 -->
+  <path id="fbPath" d="M 1074 208 L 1074 244 Q 1074 260 1058 260 L 142 260 Q 126 260 126 244 L 126 212" fill="none" stroke="url(#feedbackRail)" stroke-width="2" class="back-dash"/>
+  <!-- Arrowhead into Stage 1 -->
+  <polygon points="126,208 120,218 132,218" fill="#0891B2"/>
+
+  <!-- Animated Feedback Pulses -->
+  <circle r="4" fill="#059669" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="5.2s" repeatCount="indefinite" path="M 1074 208 L 1074 244 Q 1074 260 1058 260 L 142 260 Q 126 260 126 244 L 126 212"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.94;1" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="#0891B2" opacity="0" filter="url(#pGlow)">
+    <animateMotion dur="5.2s" begin="2.6s" repeatCount="indefinite" path="M 1074 208 L 1074 244 Q 1074 260 1058 260 L 142 260 Q 126 260 126 244 L 126 212"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.94;1" dur="5.2s" begin="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Centered Pill on Feedback Track -->
+  <g transform="translate(385, 246)">
+    <rect x="0" y="0" width="430" height="28" rx="14" fill="#FFFFFF" stroke="#10B981" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="215" y="18" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#047857">⟲ CLOSED-LOOP ACTIVE LEARNING · WET-LAB ASSAY FEEDBACK</text>
+  </g>
+</svg>

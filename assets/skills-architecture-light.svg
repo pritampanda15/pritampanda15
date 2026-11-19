@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 416" width="100%" role="img" aria-label="Latest 2026 AI for Science and Computational Drug Discovery Skills Architecture">
+  <defs>
+    <linearGradient id="skBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="skCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="gCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="gViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="gEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="gAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="gRose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <style>
+      .sans { font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }
+      @keyframes shimmerBar {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.55; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.3); opacity: 0.45; }
+      }
+      .bar-anim { animation: shimmerBar 3.2s ease-in-out infinite; }
+      .node-anim { transform-box: fill-box; transform-origin: center; animation: pulseNode 2.8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="412" rx="20" fill="url(#skBg)" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="26" y="32" class="mono" font-size="11.5" font-weight="700" fill="#7C3AED" letter-spacing="1.5">TECHNICAL ARCHITECTURE · 2026 FRONTIER SKILL MATRIX</text>
+  <text x="1174" y="32" text-anchor="end" class="mono" font-size="10.5" fill="#475569">FOUNDATION MODELS · AGENTIC EVALS · PHYSICS · OMICS · GPU SYSTEMS</text>
+
+  <!-- 3 columns x 2 rows: card width=368, height=166, col gaps=22, row gap=18; margins: x=26, y=48 -->
+  <!-- ROW 1, COL 1: Foundation Models & Generative Bio-AI -->
+  <g transform="translate(26, 48)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#22D3EE" stroke-opacity="0.38" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#0891B2" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Foundation Models &amp; Gen Bio-AI</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="318" height="3" rx="1.5" fill="url(#gCyan)" class="bar-anim"/>
+
+    <!-- Row 1 chips (y=58) -->
+    <rect x="16" y="58" width="74" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="53" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#0E7490">PyTorch</text>
+
+    <rect x="98" y="58" width="48" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="122" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#0E7490">JAX</text>
+
+    <rect x="154" y="58" width="98" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="203" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#0E7490">AlphaFold2/3</text>
+
+    <rect x="260" y="58" width="92" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="306" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#0E7490">Boltz-1x/2</text>
+
+    <!-- Row 2 chips (y=90) -->
+    <rect x="16" y="90" width="98" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="65" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#0369A1">SE(3) GNNs</text>
+
+    <rect x="122" y="90" width="94" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="169" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#0369A1">RFdiffusion</text>
+
+    <rect x="224" y="90" width="76" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="262" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#0369A1">OpenFold</text>
+
+    <rect x="308" y="90" width="44" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="330" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#0369A1">Pyro</text>
+
+    <!-- Row 3 chips (y=122) -->
+    <rect x="16" y="122" width="104" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.3"/>
+    <text x="68" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">NVIDIA NeMo</text>
+
+    <rect x="128" y="122" width="114" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.3"/>
+    <text x="185" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Active Learning</text>
+
+    <rect x="250" y="122" width="102" height="24" rx="6" fill="#ECFEFF" stroke="#22D3EE" stroke-opacity="0.3"/>
+    <text x="301" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">3D Gen-SBDD</text>
+  </g>
+
+  <!-- ROW 1, COL 2: Agentic AI, Harnesses & Evals -->
+  <g transform="translate(416, 48)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#8B5CF6" stroke-opacity="0.42" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#7C3AED" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Agentic AI, Harnesses &amp; Evals</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="322" height="3" rx="1.5" fill="url(#gViolet)" class="bar-anim"/>
+
+    <!-- Row 1 -->
+    <rect x="16" y="58" width="96" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.42"/>
+    <text x="64" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#5B21B6">Claude Code</text>
+
+    <rect x="120" y="58" width="94" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.42"/>
+    <text x="167" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#5B21B6">Gemini CLI</text>
+
+    <rect x="222" y="58" width="130" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.42"/>
+    <text x="287" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#5B21B6">AutoHarness Eval</text>
+
+    <!-- Row 2 -->
+    <rect x="16" y="90" width="142" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <text x="87" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#6D28D9">Biomni + Antigravity</text>
+
+    <rect x="166" y="90" width="102" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <text x="217" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#6D28D9">ReAct Agents</text>
+
+    <rect x="276" y="90" width="76" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <text x="314" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#6D28D9">MCP Tools</text>
+
+    <!-- Row 3 -->
+    <rect x="16" y="122" width="114" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.3"/>
+    <text x="73" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Graph RAG/R-GCN</text>
+
+    <rect x="138" y="122" width="104" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.3"/>
+    <text x="190" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Local LLM FT</text>
+
+    <rect x="250" y="122" width="102" height="24" rx="6" fill="#F5F3FF" stroke="#A78BFA" stroke-opacity="0.3"/>
+    <text x="301" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">2,000+ Skills</text>
+  </g>
+
+  <!-- ROW 1, COL 3: Physics, Docking, FEP & Quantum ML -->
+  <g transform="translate(806, 48)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#059669" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Docking, Alchemical FEP &amp; QM</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="330" height="3" rx="1.5" fill="url(#gEmerald)" class="bar-anim"/>
+
+    <!-- Row 1 -->
+    <rect x="16" y="58" width="84" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.4"/>
+    <text x="58" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#047857">PandaDock</text>
+
+    <rect x="108" y="58" width="104" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.4"/>
+    <text x="160" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#047857">OpenFE · PMX</text>
+
+    <rect x="220" y="58" width="132" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.4"/>
+    <text x="286" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#047857">GROMACS · OpenMM</text>
+
+    <!-- Row 2 -->
+    <rect x="16" y="90" width="122" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="77" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#065F46">AutoDock · Glide</text>
+
+    <rect x="146" y="90" width="128" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="210" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#065F46">MLIPs · SO3krates</text>
+
+    <rect x="282" y="90" width="70" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="317" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#065F46">RDKit</text>
+
+    <!-- Row 3 -->
+    <rect x="16" y="122" width="122" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.3"/>
+    <text x="77" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Psi4 · xTB · SAPT0</text>
+
+    <rect x="146" y="122" width="114" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.3"/>
+    <text x="203" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">VASP · SIESTA</text>
+
+    <rect x="268" y="122" width="84" height="24" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-opacity="0.3"/>
+    <text x="310" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">QM/MM · DFT</text>
+  </g>
+
+  <!-- ROW 2, COL 1: Virtual Cell & Multi-Omics -->
+  <g transform="translate(26, 232)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#D97706" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Virtual Cell &amp; Multi-Omics</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="308" height="3" rx="1.5" fill="url(#gAmber)" class="bar-anim"/>
+
+    <!-- Row 1 -->
+    <rect x="16" y="58" width="144" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.42"/>
+    <text x="88" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#92400E">CRISPRi Perturbation</text>
+
+    <rect x="168" y="58" width="104" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.42"/>
+    <text x="220" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#92400E">Scanpy · Seurat</text>
+
+    <rect x="280" y="58" width="72" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.42"/>
+    <text x="316" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#92400E">scRNA</text>
+
+    <!-- Row 2 -->
+    <rect x="16" y="90" width="140" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.35"/>
+    <text x="86" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#B45309">Spatial Transcript.</text>
+
+    <rect x="164" y="90" width="84" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.35"/>
+    <text x="206" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#B45309">WES / WGS</text>
+
+    <rect x="256" y="90" width="96" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.35"/>
+    <text x="304" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#B45309">Variant Call</text>
+
+    <!-- Row 3 -->
+    <rect x="16" y="122" width="134" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.3"/>
+    <text x="83" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Biomarker Discovery</text>
+
+    <rect x="158" y="122" width="108" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.3"/>
+    <text x="212" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Target ID · NGS</text>
+
+    <rect x="274" y="122" width="78" height="24" rx="6" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.3"/>
+    <text x="313" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Proteomics</text>
+  </g>
+
+  <!-- ROW 2, COL 2: GPU, HPC & Cloud MLOps -->
+  <g transform="translate(416, 232)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#3B82F6" stroke-opacity="0.42" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#2563EB" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">GPU Computing, HPC &amp; MLOps</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="320" height="3" rx="1.5" fill="url(#gBlue)" class="bar-anim"/>
+
+    <!-- Row 1 -->
+    <rect x="16" y="58" width="106" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.42"/>
+    <text x="69" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#1D4ED8">CUDA · RAPIDS</text>
+
+    <rect x="130" y="58" width="96" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.42"/>
+    <text x="178" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#1D4ED8">SLURM · HPC</text>
+
+    <rect x="234" y="58" width="118" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.42"/>
+    <text x="293" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#1D4ED8">Nextflow · nf-core</text>
+
+    <!-- Row 2 -->
+    <rect x="16" y="90" width="84" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="58" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#1E40AF">Snakemake</text>
+
+    <rect x="108" y="90" width="136" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="176" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#1E40AF">Docker · Singularity</text>
+
+    <rect x="252" y="90" width="100" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="302" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#1E40AF">DuckDB · S3</text>
+
+    <!-- Row 3 -->
+    <rect x="16" y="122" width="156" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.3"/>
+    <text x="94" y="138" text-anchor="middle" class="mono" font-size="10.2" fill="#334155">AWS HealthOmics · GCP</text>
+
+    <rect x="178" y="122" width="78" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.3"/>
+    <text x="217" y="138" text-anchor="middle" class="mono" font-size="10.2" fill="#334155">Vertex AI</text>
+
+    <rect x="262" y="122" width="90" height="24" rx="6" fill="#EFF6FF" stroke="#60A5FA" stroke-opacity="0.3"/>
+    <text x="307" y="138" text-anchor="middle" class="mono" font-size="10.2" fill="#334155">CI/CD · PyPI</text>
+  </g>
+
+  <!-- ROW 2, COL 3: Full-Stack Scientific Engineering -->
+  <g transform="translate(806, 232)">
+    <rect x="0" y="0" width="368" height="166" rx="14" fill="url(#skCard)" stroke="#F43F5E" stroke-opacity="0.4" stroke-width="1.2"/>
+    <circle cx="22" cy="24" r="4.5" fill="#E11D48" class="node-anim"/>
+    <text x="36" y="29" class="sans" font-size="14.5" font-weight="700" fill="#0F172A">Scientific Apps &amp; Full-Stack</text>
+    <rect x="16" y="42" width="336" height="3" rx="1.5" fill="#E2E8F0"/>
+    <rect x="16" y="42" width="298" height="3" rx="1.5" fill="url(#gRose)" class="bar-anim"/>
+
+    <!-- Row 1 -->
+    <rect x="16" y="58" width="92" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.42"/>
+    <text x="62" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#BE123C">Python · R</text>
+
+    <rect x="116" y="58" width="76" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.42"/>
+    <text x="154" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#BE123C">FastAPI</text>
+
+    <rect x="200" y="58" width="152" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.42"/>
+    <text x="276" y="74" text-anchor="middle" class="mono" font-size="10.5" fill="#BE123C">Next.js · React · TS</text>
+
+    <!-- Row 2 -->
+    <rect x="16" y="90" width="114" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.35"/>
+    <text x="73" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#9F1239">Three.js · Mol*</text>
+
+    <rect x="138" y="90" width="122" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.35"/>
+    <text x="199" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#9F1239">Streamlit · Plotly</text>
+
+    <rect x="268" y="90" width="84" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.35"/>
+    <text x="310" y="106" text-anchor="middle" class="mono" font-size="10.5" fill="#9F1239">Marimo</text>
+
+    <!-- Row 3 -->
+    <rect x="16" y="122" width="112" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.3"/>
+    <text x="72" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Jupyter · Bash</text>
+
+    <rect x="136" y="122" width="106" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.3"/>
+    <text x="189" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">NVIDIA Nsight</text>
+
+    <rect x="250" y="122" width="102" height="24" rx="6" fill="#FFF1F2" stroke="#FB7185" stroke-opacity="0.3"/>
+    <text x="301" y="138" text-anchor="middle" class="mono" font-size="10.5" fill="#334155">Vue.js · Flask</text>
+  </g>
+</svg>

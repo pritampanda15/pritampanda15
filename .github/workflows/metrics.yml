@@ -45,4 +45,4 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_repositories: yes
-          plugin_repositories_featured: pritampanda15/PandaDock, pritampanda15/Seqcore
+          plugin_repositories_featured: pritampanda15/PandaDock, pritampanda15/PandaMap, pritampanda15/autoharness
