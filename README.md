@@ -11,9 +11,13 @@
 
 <br/>
 
-<!-- ═══════════════════ KINETIC TYPING TELEMETRY ═══════════════════ -->
+<!-- ═══════════════════ KINETIC TYPING TELEMETRY (APPLE ADAPTIVE) ═══════════════════ -->
 <a href="https://profiles.stanford.edu/pritam-panda">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=0EA5E9&center=true&vCenter=true&width=920&lines=Postdoctoral+Scholar+%40+Stanford+Medicine+%E2%80%A2+AI+for+Molecular+Discovery;Protein+Foundation+Models+%28AF3+%2F+Boltz-2%29+%E2%80%A2+SE%283%29+GNNs+%E2%80%A2+Alchemical+FEP;%231+Independent+%282nd+Overall%29+%E2%80%A2+OpenADMET%2FASAP+Alchemistry+2027+Blind+Challenge;2%2C000%2B+Agentic+Bio-AI+Skills+%28Biomni+%2B+Antigravity%29+%E2%80%A2+AutoHarness+Eval+Loops;Scaled+Active+Learning+Across+2.5B%2B+Molecules+%E2%86%92+Phase+II+Clinical+Trials" alt="Animated role and research highlights"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2600&pause=950&color=0A84FF&center=true&vCenter=true&width=960&lines=Postdoctoral+Scholar+%40+Stanford+Medicine+%E2%80%A2+AI+for+Molecular+Discovery;Protein+Foundation+Models+%28AF3+%2F+Boltz-2%29+%E2%80%A2+SE%283%29+GNNs+%E2%80%A2+Alchemical+FEP;%231+Independent+%282nd+Overall%29+%E2%80%A2+OpenADMET%2FASAP+Alchemistry+2027+Blind+Challenge;2%2C000%2B+Agentic+Bio-AI+Skills+%28Biomni+%2B+Antigravity%29+%E2%80%A2+AutoHarness+Eval+Loops;Scaled+Active+Learning+Across+2.5B%2B+Molecules+%E2%86%92+Phase+II+Clinical+Trials">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2600&pause=950&color=0071E3&center=true&vCenter=true&width=960&lines=Postdoctoral+Scholar+%40+Stanford+Medicine+%E2%80%A2+AI+for+Molecular+Discovery;Protein+Foundation+Models+%28AF3+%2F+Boltz-2%29+%E2%80%A2+SE%283%29+GNNs+%E2%80%A2+Alchemical+FEP;%231+Independent+%282nd+Overall%29+%E2%80%A2+OpenADMET%2FASAP+Alchemistry+2027+Blind+Challenge;2%2C000%2B+Agentic+Bio-AI+Skills+%28Biomni+%2B+Antigravity%29+%E2%80%A2+AutoHarness+Eval+Loops;Scaled+Active+Learning+Across+2.5B%2B+Molecules+%E2%86%92+Phase+II+Clinical+Trials">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2600&pause=950&color=0071E3&center=true&vCenter=true&width=960&lines=Postdoctoral+Scholar+%40+Stanford+Medicine+%E2%80%A2+AI+for+Molecular+Discovery;Protein+Foundation+Models+%28AF3+%2F+Boltz-2%29+%E2%80%A2+SE%283%29+GNNs+%E2%80%A2+Alchemical+FEP;%231+Independent+%282nd+Overall%29+%E2%80%A2+OpenADMET%2FASAP+Alchemistry+2027+Blind+Challenge;2%2C000%2B+Agentic+Bio-AI+Skills+%28Biomni+%2B+Antigravity%29+%E2%80%A2+AutoHarness+Eval+Loops;Scaled+Active+Learning+Across+2.5B%2B+Molecules+%E2%86%92+Phase+II+Clinical+Trials" alt="Animated role and research highlights"/>
+  </picture>
 </a>
 
 <!-- ═══════════════════ PRIMARY ACTION & SOCIAL PILL BAR ═══════════════════ -->

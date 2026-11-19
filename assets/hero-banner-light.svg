@@ -1,271 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Pritam Kumar Panda, PhD — AI for Science and Computational Drug Discovery Scientist at Stanford Medicine">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" role="img" aria-label="Pritam Kumar Panda, PhD — AI for Science, Computational Drug Discovery and Agentic Bio-AI at Stanford Medicine">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="52%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#F1F5F9"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F5F7"/>
+      <stop offset="100%" stop-color="#EFEFF4"/>
     </linearGradient>
-
-    <radialGradient id="cyanAura" cx="78%" cy="48%" r="44%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.16"/>
-      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <!-- Eased multi-stop ambient washes (no harsh edge) -->
+    <radialGradient id="auraBlue" cx="82%" cy="46%" r="44%">
+      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.10"/>
+      <stop offset="35%" stop-color="#0071E3" stop-opacity="0.06"/>
+      <stop offset="70%" stop-color="#0071E3" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#0071E3" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="violetAura" cx="16%" cy="16%" r="46%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.12"/>
-      <stop offset="60%" stop-color="#A78BFA" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <radialGradient id="auraPurple" cx="15%" cy="15%" r="48%">
+      <stop offset="0%" stop-color="#8944AB" stop-opacity="0.08"/>
+      <stop offset="40%" stop-color="#8944AB" stop-opacity="0.04"/>
+      <stop offset="75%" stop-color="#8944AB" stop-opacity="0.01"/>
+      <stop offset="100%" stop-color="#8944AB" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="crimsonAura" cx="92%" cy="92%" r="32%">
-      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="55%" stop-color="#1E3A8A"/>
-      <stop offset="85%" stop-color="#0E7490"/>
-      <stop offset="100%" stop-color="#6D28D9"/>
+    <linearGradient id="titleInk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D1D1F"/><stop offset="70%" stop-color="#1D1D1F"/><stop offset="100%" stop-color="#0055B3"/>
     </linearGradient>
-
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#06B6D4" stop-opacity="0.8"/>
-      <stop offset="55%" stop-color="#7C3AED" stop-opacity="0.85"/>
-      <stop offset="82%" stop-color="#E11D48" stop-opacity="0.65"/>
-      <stop offset="100%" stop-color="#E11D48" stop-opacity="0"/>
+    <linearGradient id="ligandRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0071E3"/>
+      <stop offset="55%" stop-color="#8944AB"/>
+      <stop offset="100%" stop-color="#007A8C"/>
     </linearGradient>
-
-    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="ligandStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0891B2"/>
-      <stop offset="50%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#E11D48"/>
-    </linearGradient>
-
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.32"/>
-      <stop offset="100%" stop-color="#E11D48" stop-opacity="0.35"/>
-    </linearGradient>
-
-    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#64748B" stroke-opacity="0.09" stroke-width="1"/>
-      <circle cx="0" cy="0" r="1" fill="#0891B2" fill-opacity="0.22"/>
+    <pattern id="fineGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#86868B" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
-
-    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+        <filter id="cardShadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.055"/>
     </filter>
-
-    <clipPath id="cardClip">
-      <rect x="2" y="2" width="1196" height="356" rx="22"/>
-    </clipPath>
-
+    <clipPath id="clipHero"><rect x="2" y="2" width="1196" height="396" rx="26"/></clipPath>
     <style>
-      .sans { font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Monaco, Consolas, monospace; }
 
-      @keyframes pulseDot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.45; transform: scale(1.45); }
-      }
-      @keyframes floatSlow {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-7px); }
-      }
-      @keyframes floatAlt {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(6px); }
-      }
-      @keyframes dashFlow {
-        to { stroke-dashoffset: -48; }
-      }
-      @keyframes radarPulse {
-        0% { r: 34; opacity: 0.48; stroke-width: 1.8; }
-        100% { r: 122; opacity: 0; stroke-width: 0.5; }
-      }
-      @keyframes shimmerSlide {
-        0% { transform: translateX(-380px); }
-        100% { transform: translateX(1380px); }
-      }
+      .display { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace; }
+      .num { font-variant-numeric: tabular-nums; }
 
-      .live-dot { transform-box: fill-box; transform-origin: center; animation: pulseDot 2.2s ease-in-out infinite; }
-      .float-main { animation: floatSlow 5.8s ease-in-out infinite; }
-      .float-badge-1 { animation: floatAlt 4.6s ease-in-out infinite; }
-      .float-badge-2 { animation: floatSlow 5.2s ease-in-out infinite; }
-      .hbond { stroke-dasharray: 5 5; animation: dashFlow 3s linear infinite; }
-      .radar-1 { animation: radarPulse 4.2s ease-out infinite; }
-      .radar-2 { animation: radarPulse 4.2s ease-out 2.1s infinite; }
-      .shimmer { animation: shimmerSlide 6.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+
+      /* Restraint (remove-animations): zero hidden opacity:0 start states on static/functional cards */
+
+      @keyframes dashFlow { to { stroke-dashoffset: -40; } }
+      .hbond { stroke-dasharray: 5 5; animation: dashFlow 3.2s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .hbond { animation: none !important; }
+      }
     </style>
   </defs>
 
-  <g clip-path="url(#cardClip)">
-    <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#techGrid)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#violetAura)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#cyanAura)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#crimsonAura)"/>
+  <g clip-path="url(#clipHero)">
+    <rect x="0" y="0" width="1200" height="400" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#fineGrid)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#auraPurple)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#auraBlue)"/>
+    <!-- Apple specular top highlight edge -->
+    <line x1="28" y1="3" x2="1172" y2="3" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="1.5"/>
 
-    <rect x="0" y="2" width="1200" height="2.5" fill="url(#accentLine)" opacity="0.7"/>
-    <rect class="shimmer" x="0" y="2" width="240" height="2.5" fill="url(#shimmerGrad)"/>
-
-    <path d="M -20 334 C 160 304, 320 356, 520 330 C 680 308, 810 350, 1020 326" fill="none" stroke="#0891B2" stroke-opacity="0.14" stroke-width="1.4"/>
-    <path d="M -20 344 C 170 358, 340 306, 540 340 C 700 358, 840 312, 1040 338" fill="none" stroke="#7C3AED" stroke-opacity="0.14" stroke-width="1.4"/>
-
-    <!-- Status pill -->
-    <g transform="translate(52, 42)">
-      <rect x="0" y="0" width="436" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.92" stroke="#0891B2" stroke-opacity="0.38" stroke-width="1"/>
-      <circle cx="18" cy="15" r="7" fill="#10B981" fill-opacity="0.25" class="live-dot"/>
-      <circle cx="18" cy="15" r="4" fill="#059669"/>
-      <text x="34" y="19" class="mono" font-size="11.2" font-weight="600" fill="#0F172A" letter-spacing="0.65">STANFORD MEDICINE · OPEN TO RESEARCH &amp; AI ROLES</text>
+    <!-- Status Capsule (Decoration: fades gently with Lead) -->
+    <g transform="translate(52, 42)" class="e-dec">
+      <rect x="0" y="0" width="438" height="34" rx="17" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+      <circle cx="19" cy="17" r="5" fill="#248A3D"/>
+      <text x="34" y="21.5" class="text" font-size="13.5" font-weight="600" fill="#1D1D1F" letter-spacing="0.01em">Stanford Medicine · Open to Research &amp; AI Roles</text>
     </g>
 
-    <!-- Main Name -->
-    <text x="52" y="128" class="sans" font-size="47" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.8">PRITAM KUMAR PANDA<tspan font-size="25" font-weight="700" fill="#0284C7" dx="8">PhD</tspan></text>
-
-    <!-- Role Subtitle -->
-    <text x="52" y="164" class="sans" font-size="19.5" font-weight="600" fill="#1E293B" letter-spacing="0.1">
-      AI for Science <tspan fill="#0891B2">·</tspan> Computational Drug Discovery <tspan fill="#7C3AED">·</tspan> Agentic Bio-AI
-    </text>
-
-    <!-- Focused Research Line -->
-    <text x="52" y="198" class="sans" font-size="14.5" font-weight="400" fill="#475569">
-      Architecting protein foundation models, SE(3)-equivariant GNNs, GPU docking &amp; alchemical FEP
-    </text>
-    <text x="52" y="220" class="sans" font-size="14.5" font-weight="400" fill="#475569">
-      engines, virtual-cell perturbation models, and self-evaluating scientific agent harnesses.
-    </text>
-
-    <!-- Highlight Capability Chips -->
-    <g transform="translate(52, 246)">
-      <rect x="0" y="0" width="154" height="28" rx="8" fill="#ECFEFF" stroke="#0891B2" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="77" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#0E7490">AF3 · Boltz-2 · JAX</text>
-
-      <rect x="166" y="0" width="174" height="28" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="253" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#5B21B6">PandaDock · OpenFE</text>
-
-      <rect x="352" y="0" width="184" height="28" rx="8" fill="#ECFDF5" stroke="#059669" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="444" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#047857">2,000+ Bio-Agent Skills</text>
-
-      <rect x="548" y="0" width="166" height="28" rx="8" fill="#FFF1F2" stroke="#E11D48" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="631" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#BE123C">#1 Alchemistry 2027</text>
+    <!-- Lead: Display Name (Optical sizing: 54px, negative tracking -0.03em) -->
+    <g class="e-lead">
+      <text x="52" y="138" class="display" font-size="54" font-weight="800" fill="url(#titleInk)" letter-spacing="-1.6">Pritam Kumar Panda<tspan font-size="28" font-weight="700" fill="#0071E3" dx="10" letter-spacing="-0.4">PhD</tspan></text>
     </g>
 
-    <!-- Bottom Telemetry Strip -->
-    <line x1="52" y1="298" x2="766" y2="298" stroke="#CBD5E1" stroke-width="1"/>
-    <text x="52" y="324" class="mono" font-size="11.5" fill="#475569">
-      <tspan fill="#0284C7" font-weight="700">LOC</tspan> Stanford, CA   <tspan fill="#94A3B8">|</tspan>   <tspan fill="#6D28D9" font-weight="700">PATH</tspan> Uppsala PhD · Karolinska · DKFZ · Stanford   <tspan fill="#94A3B8">|</tspan>   <tspan fill="#059669" font-weight="700">HONORS</tspan> Nextflow Ambassador · Sigma Xi
+    <!-- Support 1: Role Subtitle -->
+    <g class="e-sup1">
+      <text x="52" y="178" class="display" font-size="22" font-weight="600" fill="#424245" letter-spacing="-0.3">
+        AI for Science <tspan fill="#0071E3">·</tspan> Computational Drug Discovery <tspan fill="#8944AB">·</tspan> Agentic Bio-AI
+      </text>
+    </g>
+
+    <!-- Support 2: Concise Body Copy (16.5px, comfortable leading, ~64ch max) -->
+    <g class="e-sup2">
+      <text x="52" y="217" class="text" font-size="16.5" font-weight="400" fill="#6E6E73">
+        Building protein foundation models, SE(3)-equivariant GNNs, GPU docking &amp;
+      </text>
+      <text x="52" y="242" class="text" font-size="16.5" font-weight="400" fill="#6E6E73">
+        alchemical FEP engines, virtual-cell models, and eval-driven bio-AI harnesses.
+      </text>
+    </g>
+
+    <!-- Support 3: 4 Apple-tinted Capability Capsules (13.5px) -->
+    <g transform="translate(52, 272)" class="e-sup3">
+      <rect x="0" y="0" width="166" height="34" rx="17" fill="#EDF5FF" stroke="#BFDDFC" stroke-width="1"/>
+      <text x="83" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#0055B3">AF3 · Boltz-2 · JAX</text>
+
+      <rect x="178" y="0" width="180" height="34" rx="17" fill="#F6EFFB" stroke="#DFC6F0" stroke-width="1"/>
+      <text x="268" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#6B2E8A">PandaDock · OpenFE</text>
+
+      <rect x="370" y="0" width="194" height="34" rx="17" fill="#ECF9EF" stroke="#B8E6C3" stroke-width="1"/>
+      <text x="467" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#186A2D">2,000+ Bio-Agent Skills</text>
+
+      <rect x="576" y="0" width="174" height="34" rx="17" fill="#FFF5EB" stroke="#F5D0A9" stroke-width="1"/>
+      <text x="663" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#8F3F00">#1 Alchemistry 2027</text>
+    </g>
+
+    <!-- Bottom Hairline & Institutional Path (13.5px) -->
+    <line x1="52" y1="334" x2="778" y2="334" stroke="#E5E5EA" stroke-width="1"/>
+    <text x="52" y="364" class="text" font-size="13.8" font-weight="500" fill="#6E6E73">
+      <tspan fill="#1D1D1F" font-weight="600">Stanford, CA</tspan>   ·   PhD Uppsala · Karolinska · DKFZ   ·   <tspan fill="#1D1D1F" font-weight="600">Nextflow Ambassador</tspan> · Sigma Xi
     </text>
 
-    <!-- RIGHT MOTION GRAPHIC -->
-    <g transform="translate(972, 180)">
-      <circle cx="0" cy="0" r="34" fill="none" stroke="#0891B2" class="radar-1"/>
-      <circle cx="0" cy="0" r="34" fill="none" stroke="#7C3AED" class="radar-2"/>
-
-      <g opacity="0.82">
-        <ellipse cx="0" cy="0" rx="134" ry="62" fill="none" stroke="#0891B2" stroke-opacity="0.34" stroke-width="1.3" stroke-dasharray="6 6">
-          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+    <!-- RIGHT EXPLANATORY MOTION GRAPHIC: SE(3) PROTEIN-LIGAND BINDING POCKET -->
+    <g transform="translate(974, 200)">
+      <!-- Calm rotating concentric binding-pocket orbitals -->
+      <g opacity="0.78">
+        <ellipse cx="0" cy="0" rx="142" ry="66" fill="none" stroke="#0071E3" stroke-opacity="0.28" stroke-width="1.3" stroke-dasharray="6 6">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="42s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="0" cy="0" rx="116" ry="52" fill="none" stroke="#7C3AED" stroke-opacity="0.36" stroke-width="1.3" transform="rotate(60)">
-          <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="-300 0 0" dur="28s" repeatCount="indefinite"/>
+        <ellipse cx="0" cy="0" rx="124" ry="56" fill="none" stroke="#8944AB" stroke-opacity="0.30" stroke-width="1.3" transform="rotate(60)">
+          <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="-300 0 0" dur="34s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="0" cy="0" rx="106" ry="48" fill="none" stroke="#E11D48" stroke-opacity="0.28" stroke-width="1.2" transform="rotate(-55)">
-          <animateTransform attributeName="transform" type="rotate" from="-55 0 0" to="305 0 0" dur="32s" repeatCount="indefinite"/>
+        <ellipse cx="0" cy="0" rx="112" ry="50" fill="none" stroke="#007A8C" stroke-opacity="0.24" stroke-width="1.2" transform="rotate(-55)">
+          <animateTransform attributeName="transform" type="rotate" from="-55 0 0" to="305 0 0" dur="38s" repeatCount="indefinite"/>
         </ellipse>
       </g>
 
-      <g>
-        <path d="M -112 -64 Q -56 -48 -28 -16" fill="none" stroke="#0284C7" stroke-width="1.5" class="hbond" opacity="0.72"/>
-        <path d="M 118 -54 Q 64 -38 28 -16" fill="none" stroke="#7C3AED" stroke-width="1.5" class="hbond" opacity="0.72"/>
-        <path d="M 104 78 Q 52 52 28 16" fill="none" stroke="#059669" stroke-width="1.5" class="hbond" opacity="0.72"/>
-        <path d="M -108 72 Q -54 46 -28 16" fill="none" stroke="#E11D48" stroke-width="1.5" class="hbond" opacity="0.72"/>
-        <path d="M 0 -116 Q 10 -68 0 -32" fill="none" stroke="#D97706" stroke-width="1.4" class="hbond" opacity="0.72"/>
+      <!-- Non-covalent H-bond & pi-stacking tracks with explanatory interaction packets -->
+      <path d="M -114 -68 Q -58 -50 -30 -18" fill="none" stroke="#0071E3" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 118 -58 Q 64 -40 30 -18" fill="none" stroke="#8944AB" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 108 82 Q 54 54 30 18" fill="none" stroke="#248A3D" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M -110 76 Q -56 48 -30 18" fill="none" stroke="#D70015" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 0 -122 Q 10 -72 0 -36" fill="none" stroke="#D97706" stroke-width="1.5" class="hbond" opacity="0.65"/>
 
-        <circle r="3.2" fill="#0891B2" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.6s" repeatCount="indefinite" path="M -112 -64 Q -56 -48 -28 -16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.6s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.2" fill="#7C3AED" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="3.1s" repeatCount="indefinite" path="M 118 -54 Q 64 -38 28 -16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.1s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.0" fill="#059669" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.9s" repeatCount="indefinite" path="M 104 78 Q 52 52 28 16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.9s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.0" fill="#E11D48" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="3.4s" repeatCount="indefinite" path="M -108 72 Q -54 46 -28 16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.4s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="2.8" fill="#D97706" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.4s" repeatCount="indefinite" path="M 0 -116 Q 10 -68 0 -32"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.4s" repeatCount="indefinite"/>
-        </circle>
+      <circle r="3.4" fill="#0071E3" opacity="0">
+        <animateMotion dur="3.0s" repeatCount="indefinite" path="M -114 -68 Q -58 -50 -30 -18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.0s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.4" fill="#8944AB" opacity="0">
+        <animateMotion dur="3.5s" repeatCount="indefinite" path="M 118 -58 Q 64 -40 30 -18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.2" fill="#248A3D" opacity="0">
+        <animateMotion dur="3.2s" repeatCount="indefinite" path="M 108 82 Q 54 54 30 18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.2" fill="#D70015" opacity="0">
+        <animateMotion dur="3.8s" repeatCount="indefinite" path="M -110 76 Q -56 48 -30 18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
 
-        <circle cx="-112" cy="-64" r="7" fill="#FFFFFF" stroke="#0891B2" stroke-width="2.2"/>
-        <circle cx="118" cy="-54" r="7.5" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.2"/>
-        <circle cx="104" cy="78" r="7" fill="#FFFFFF" stroke="#059669" stroke-width="2.2"/>
-        <circle cx="-108" cy="72" r="6.5" fill="#FFFFFF" stroke="#E11D48" stroke-width="2.2"/>
-        <circle cx="0" cy="-116" r="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
-        <circle cx="-4" cy="112" r="5" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.8"/>
+      <!-- Binding-pocket residue nodes -->
+      <circle cx="-114" cy="-68" r="7.5" fill="#FFFFFF" stroke="#0071E3" stroke-width="2.4"/>
+      <circle cx="118" cy="-58" r="7.5" fill="#FFFFFF" stroke="#8944AB" stroke-width="2.4"/>
+      <circle cx="108" cy="82" r="7.5" fill="#FFFFFF" stroke="#248A3D" stroke-width="2.4"/>
+      <circle cx="-110" cy="76" r="7" fill="#FFFFFF" stroke="#D70015" stroke-width="2.4"/>
+      <circle cx="0" cy="-122" r="6.5" fill="#FFFFFF" stroke="#D97706" stroke-width="2.4"/>
+
+      <!-- Central Aromatic Ligand Core (calm, anchored — no 0.2 Hz bobbing) -->
+      <polygon points="0,-36 31,-18 31,18 0,36 -31,18 -31,-18" fill="#FFFFFF" stroke="url(#ligandRing)" stroke-width="3" filter="url(#cardShadow)"/>
+      <polygon points="0,-23 20,-11.5 20,11.5 0,23 -20,11.5 -20,-11.5" fill="none" stroke="#0071E3" stroke-opacity="0.4" stroke-width="1.4" stroke-dasharray="14 6"/>
+      <line x1="31" y1="-18" x2="56" y2="-31" stroke="#8944AB" stroke-width="2.4"/>
+      <circle cx="58" cy="-32" r="5.5" fill="#8944AB"/>
+      <line x1="-31" y1="18" x2="-56" y2="31" stroke="#0071E3" stroke-width="2.4"/>
+      <circle cx="-58" cy="32" r="5.5" fill="#0071E3"/>
+      <line x1="0" y1="36" x2="0" y2="62" stroke="#248A3D" stroke-width="2.4"/>
+      <circle cx="0" cy="64" r="5.2" fill="#248A3D"/>
+      <text x="0" y="5" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#1D1D1F">SE(3)</text>
+
+      <!-- Clean Anchored Micro-Tags (12.5px, static for effortless reading) -->
+      <g transform="translate(-170, -142)">
+        <rect x="0" y="0" width="106" height="28" rx="14" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="53" y="18.5" text-anchor="middle" class="mono" font-size="12.2" font-weight="600" fill="#0055B3">ΔΔG · FEP</text>
       </g>
-
-      <g class="float-main">
-        <circle cx="0" cy="0" r="42" fill="#06B6D4" fill-opacity="0.10"/>
-        <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="#FFFFFF" fill-opacity="0.96" stroke="url(#ligandStroke)" stroke-width="2.6"/>
-        <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="none" stroke="#0891B2" stroke-opacity="0.45" stroke-width="1.3" stroke-dasharray="14 6"/>
-        <line x1="28" y1="-16" x2="52" y2="-28" stroke="#7C3AED" stroke-width="2.2"/>
-        <circle cx="54" cy="-29" r="5.2" fill="#7C3AED"/>
-        <line x1="-28" y1="16" x2="-52" y2="28" stroke="#0891B2" stroke-width="2.2"/>
-        <circle cx="-54" cy="29" r="5.2" fill="#0891B2"/>
-        <line x1="0" y1="32" x2="0" y2="56" stroke="#059669" stroke-width="2.2"/>
-        <circle cx="0" cy="58" r="4.8" fill="#059669"/>
-
-        <circle cx="0" cy="-32" r="4.2" fill="#0F172A"/>
-        <circle cx="28" cy="-16" r="4.2" fill="#0891B2"/>
-        <circle cx="28" cy="16" r="4.2" fill="#7C3AED"/>
-        <circle cx="0" cy="32" r="4.2" fill="#059669"/>
-        <circle cx="-28" cy="16" r="4.2" fill="#E11D48"/>
-        <circle cx="-28" cy="-16" r="4.2" fill="#0891B2"/>
-
-        <text x="0" y="4" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#0F172A">SE(3)</text>
+      <g transform="translate(86, -142)">
+        <rect x="0" y="0" width="102" height="28" rx="14" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="51" y="18.5" text-anchor="middle" class="mono" font-size="12.2" font-weight="600" fill="#186A2D">MLIP · QM</text>
       </g>
-
-      <g transform="translate(-162, -124)">
-        <g class="float-badge-1">
-          <rect x="0" y="0" width="94" height="22" rx="6" fill="#FFFFFF" stroke="#0891B2" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="47" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#0E7490">ΔΔG · FEP</text>
-        </g>
-      </g>
-
-      <g transform="translate(88, 108)">
-        <g class="float-badge-2">
-          <rect x="0" y="0" width="96" height="22" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="48" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#5B21B6">R = 0.88</text>
-        </g>
-      </g>
-
-      <g transform="translate(96, -120)">
-        <g class="float-badge-1">
-          <rect x="0" y="0" width="88" height="22" rx="6" fill="#FFFFFF" stroke="#059669" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="44" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#047857">MLIP · QM</text>
-        </g>
+      <g transform="translate(78, 118)">
+        <rect x="0" y="0" width="112" height="28" rx="14" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="56" y="18.5" text-anchor="middle" class="mono num" font-size="12.2" font-weight="600" fill="#6B2E8A">R = 0.88</text>
       </g>
     </g>
   </g>
 
-  <rect x="2" y="2" width="1196" height="356" rx="22" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="396" rx="26" fill="none" stroke="#E2E2E7" stroke-width="1.2"/>
 </svg>

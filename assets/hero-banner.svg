@@ -1,302 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-label="Pritam Kumar Panda, PhD — AI for Science and Computational Drug Discovery Scientist at Stanford Medicine">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" role="img" aria-label="Pritam Kumar Panda, PhD — AI for Science, Computational Drug Discovery and Agentic Bio-AI at Stanford Medicine">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050814"/>
-      <stop offset="52%" stop-color="#0B1224"/>
-      <stop offset="100%" stop-color="#0E1028"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0C"/>
+      <stop offset="100%" stop-color="#111114"/>
     </linearGradient>
-
-    <radialGradient id="cyanAura" cx="78%" cy="48%" r="42%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.24"/>
-      <stop offset="55%" stop-color="#0891B2" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#050814" stop-opacity="0"/>
+    <!-- Eased multi-stop ambient washes (no harsh edge) -->
+    <radialGradient id="auraBlue" cx="82%" cy="46%" r="44%">
+      <stop offset="0%" stop-color="#0A84FF" stop-opacity="0.16"/>
+      <stop offset="35%" stop-color="#0A84FF" stop-opacity="0.06"/>
+      <stop offset="70%" stop-color="#0A84FF" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#0A84FF" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="violetAura" cx="18%" cy="18%" r="48%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/>
-      <stop offset="60%" stop-color="#4C1D95" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#050814" stop-opacity="0"/>
+    <radialGradient id="auraPurple" cx="15%" cy="15%" r="48%">
+      <stop offset="0%" stop-color="#BF5AF2" stop-opacity="0.13"/>
+      <stop offset="40%" stop-color="#BF5AF2" stop-opacity="0.04"/>
+      <stop offset="75%" stop-color="#BF5AF2" stop-opacity="0.01"/>
+      <stop offset="100%" stop-color="#BF5AF2" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="crimsonAura" cx="92%" cy="92%" r="32%">
-      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#050814" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="48%" stop-color="#E0F2FE"/>
-      <stop offset="82%" stop-color="#67E8F9"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
+    <linearGradient id="titleInk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="65%" stop-color="#F5F5F7"/><stop offset="100%" stop-color="#64B5FF"/>
     </linearGradient>
-
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#22D3EE" stop-opacity="0.9"/>
-      <stop offset="55%" stop-color="#8B5CF6" stop-opacity="0.95"/>
-      <stop offset="82%" stop-color="#F43F5E" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0"/>
+    <linearGradient id="ligandRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="55%" stop-color="#BF5AF2"/>
+      <stop offset="100%" stop-color="#40C8E0"/>
     </linearGradient>
-
-    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="ligandStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="50%" stop-color="#A78BFA"/>
-      <stop offset="100%" stop-color="#F43F5E"/>
-    </linearGradient>
-
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.32"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0.38"/>
-    </linearGradient>
-
-    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94A3B8" stroke-opacity="0.06" stroke-width="1"/>
-      <circle cx="0" cy="0" r="1" fill="#38BDF8" fill-opacity="0.16"/>
+    <pattern id="fineGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
-
-    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+        <filter id="cardShadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
-
-    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <clipPath id="cardClip">
-      <rect x="2" y="2" width="1196" height="356" rx="22"/>
-    </clipPath>
-
+    <clipPath id="clipHero"><rect x="2" y="2" width="1196" height="396" rx="26"/></clipPath>
     <style>
-      .sans { font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Monaco, Consolas, monospace; }
 
-      @keyframes pulseDot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.45; transform: scale(1.45); }
-      }
-      @keyframes floatSlow {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-7px); }
-      }
-      @keyframes floatAlt {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(6px); }
-      }
-      @keyframes dashFlow {
-        to { stroke-dashoffset: -48; }
-      }
-      @keyframes radarPulse {
-        0% { r: 34; opacity: 0.55; stroke-width: 1.8; }
-        100% { r: 122; opacity: 0; stroke-width: 0.5; }
-      }
-      @keyframes shimmerSlide {
-        0% { transform: translateX(-380px); }
-        100% { transform: translateX(1380px); }
-      }
-      @keyframes nodeBreathe {
-        0%, 100% { opacity: 0.85; }
-        50% { opacity: 0.35; }
-      }
+      .display { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace; }
+      .num { font-variant-numeric: tabular-nums; }
 
-      .live-dot { transform-box: fill-box; transform-origin: center; animation: pulseDot 2.2s ease-in-out infinite; }
-      .float-main { animation: floatSlow 5.8s ease-in-out infinite; }
-      .float-badge-1 { animation: floatAlt 4.6s ease-in-out infinite; }
-      .float-badge-2 { animation: floatSlow 5.2s ease-in-out infinite; }
-      .hbond { stroke-dasharray: 5 5; animation: dashFlow 3s linear infinite; }
-      .radar-1 { animation: radarPulse 4.2s ease-out infinite; }
-      .radar-2 { animation: radarPulse 4.2s ease-out 2.1s infinite; }
-      .shimmer { animation: shimmerSlide 6.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-      .breathe { animation: nodeBreathe 3.4s ease-in-out infinite; }
+
+      /* Restraint (remove-animations): zero hidden opacity:0 start states on static/functional cards */
+
+      @keyframes dashFlow { to { stroke-dashoffset: -40; } }
+      .hbond { stroke-dasharray: 5 5; animation: dashFlow 3.2s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .hbond { animation: none !important; }
+      }
     </style>
   </defs>
 
-  <g clip-path="url(#cardClip)">
-    <!-- Base Obsidian Canvas & Aurora Mesh -->
-    <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#techGrid)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#violetAura)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#cyanAura)"/>
-    <rect x="0" y="0" width="1200" height="360" fill="url(#crimsonAura)"/>
+  <g clip-path="url(#clipHero)">
+    <rect x="0" y="0" width="1200" height="400" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#fineGrid)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#auraPurple)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#auraBlue)"/>
+    <!-- Apple specular top highlight edge -->
+    <line x1="28" y1="3" x2="1172" y2="3" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
 
-    <!-- Animated top shimmer hairline -->
-    <rect x="0" y="2" width="1200" height="2" fill="url(#accentLine)" opacity="0.65"/>
-    <rect class="shimmer" x="0" y="2" width="240" height="2.5" fill="url(#shimmerGrad)"/>
-
-    <!-- Subtle background DNA/protein spline waves -->
-    <path d="M -20 334 C 160 304, 320 356, 520 330 C 680 308, 810 350, 1020 326" fill="none" stroke="#22D3EE" stroke-opacity="0.08" stroke-width="1.4"/>
-    <path d="M -20 344 C 170 358, 340 306, 540 340 C 700 358, 840 312, 1040 338" fill="none" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="1.4"/>
-
-    <!-- LEFT CONTENT BLOCK -->
-    <!-- Status pill -->
-    <g transform="translate(52, 42)">
-      <rect x="0" y="0" width="436" height="30" rx="15" fill="#0F172A" fill-opacity="0.88" stroke="#22D3EE" stroke-opacity="0.38" stroke-width="1"/>
-      <circle cx="18" cy="15" r="7" fill="#10B981" fill-opacity="0.22" class="live-dot"/>
-      <circle cx="18" cy="15" r="4" fill="#10B981"/>
-      <text x="34" y="19" class="mono" font-size="11.2" font-weight="600" fill="#E2E8F0" letter-spacing="0.65">STANFORD MEDICINE · OPEN TO RESEARCH &amp; AI ROLES</text>
+    <!-- Status Capsule (Decoration: fades gently with Lead) -->
+    <g transform="translate(52, 42)" class="e-dec">
+      <rect x="0" y="0" width="438" height="34" rx="17" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
+      <circle cx="19" cy="17" r="5" fill="#30D158"/>
+      <text x="34" y="21.5" class="text" font-size="13.5" font-weight="600" fill="#F5F5F7" letter-spacing="0.01em">Stanford Medicine · Open to Research &amp; AI Roles</text>
     </g>
 
-    <!-- Main Name -->
-    <text x="52" y="128" class="sans" font-size="47" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.8">PRITAM KUMAR PANDA<tspan font-size="25" font-weight="700" fill="#38BDF8" dx="8">PhD</tspan></text>
-
-    <!-- Role Subtitle -->
-    <text x="52" y="164" class="sans" font-size="19.5" font-weight="600" fill="#CBD5E1" letter-spacing="0.1">
-      AI for Science <tspan fill="#22D3EE">·</tspan> Computational Drug Discovery <tspan fill="#8B5CF6">·</tspan> Agentic Bio-AI
-    </text>
-
-    <!-- Focused Research Line -->
-    <text x="52" y="198" class="sans" font-size="14.5" font-weight="400" fill="#94A3B8">
-      Architecting protein foundation models, SE(3)-equivariant GNNs, GPU docking &amp; alchemical FEP
-    </text>
-    <text x="52" y="220" class="sans" font-size="14.5" font-weight="400" fill="#94A3B8">
-      engines, virtual-cell perturbation models, and self-evaluating scientific agent harnesses.
-    </text>
-
-    <!-- Highlight Capability Chips -->
-    <g transform="translate(52, 246)">
-      <rect x="0" y="0" width="154" height="28" rx="8" fill="#164E63" fill-opacity="0.45" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="77" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#67E8F9">AF3 · Boltz-2 · JAX</text>
-
-      <rect x="166" y="0" width="174" height="28" rx="8" fill="#3B0764" fill-opacity="0.48" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="253" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#DDD6FE">PandaDock · OpenFE</text>
-
-      <rect x="352" y="0" width="184" height="28" rx="8" fill="#064E3B" fill-opacity="0.45" stroke="#34D399" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="444" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#6EE7B7">2,000+ Bio-Agent Skills</text>
-
-      <rect x="548" y="0" width="166" height="28" rx="8" fill="#4C0519" fill-opacity="0.48" stroke="#FB7185" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="631" y="18" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#FDA4AF">#1 Alchemistry 2027</text>
+    <!-- Lead: Display Name (Optical sizing: 54px, negative tracking -0.03em) -->
+    <g class="e-lead">
+      <text x="52" y="138" class="display" font-size="54" font-weight="800" fill="url(#titleInk)" letter-spacing="-1.6">Pritam Kumar Panda<tspan font-size="28" font-weight="700" fill="#0A84FF" dx="10" letter-spacing="-0.4">PhD</tspan></text>
     </g>
 
-    <!-- Bottom Telemetry Strip -->
-    <line x1="52" y1="298" x2="766" y2="298" stroke="#334155" stroke-opacity="0.65" stroke-width="1"/>
-    <text x="52" y="324" class="mono" font-size="11.5" fill="#94A3B8">
-      <tspan fill="#38BDF8">LOC</tspan> Stanford, CA   <tspan fill="#475569">|</tspan>   <tspan fill="#A78BFA">PATH</tspan> Uppsala PhD · Karolinska · DKFZ · Stanford   <tspan fill="#475569">|</tspan>   <tspan fill="#34D399">HONORS</tspan> Nextflow Ambassador · Sigma Xi
+    <!-- Support 1: Role Subtitle -->
+    <g class="e-sup1">
+      <text x="52" y="178" class="display" font-size="22" font-weight="600" fill="#D1D1D6" letter-spacing="-0.3">
+        AI for Science <tspan fill="#0A84FF">·</tspan> Computational Drug Discovery <tspan fill="#BF5AF2">·</tspan> Agentic Bio-AI
+      </text>
+    </g>
+
+    <!-- Support 2: Concise Body Copy (16.5px, comfortable leading, ~64ch max) -->
+    <g class="e-sup2">
+      <text x="52" y="217" class="text" font-size="16.5" font-weight="400" fill="#8E8E93">
+        Building protein foundation models, SE(3)-equivariant GNNs, GPU docking &amp;
+      </text>
+      <text x="52" y="242" class="text" font-size="16.5" font-weight="400" fill="#8E8E93">
+        alchemical FEP engines, virtual-cell models, and eval-driven bio-AI harnesses.
+      </text>
+    </g>
+
+    <!-- Support 3: 4 Apple-tinted Capability Capsules (13.5px) -->
+    <g transform="translate(52, 272)" class="e-sup3">
+      <rect x="0" y="0" width="166" height="34" rx="17" fill="#10233B" stroke="#1F4B7A" stroke-width="1"/>
+      <text x="83" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#64B5FF">AF3 · Boltz-2 · JAX</text>
+
+      <rect x="178" y="0" width="180" height="34" rx="17" fill="#281736" stroke="#522D70" stroke-width="1"/>
+      <text x="268" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#DDA0FF">PandaDock · OpenFE</text>
+
+      <rect x="370" y="0" width="194" height="34" rx="17" fill="#102B19" stroke="#1E5933" stroke-width="1"/>
+      <text x="467" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#6EE792">2,000+ Bio-Agent Skills</text>
+
+      <rect x="576" y="0" width="174" height="34" rx="17" fill="#33220B" stroke="#664415" stroke-width="1"/>
+      <text x="663" y="21.5" text-anchor="middle" class="text" font-size="13.5" font-weight="600" fill="#FFC66D">#1 Alchemistry 2027</text>
+    </g>
+
+    <!-- Bottom Hairline & Institutional Path (13.5px) -->
+    <line x1="52" y1="334" x2="778" y2="334" stroke="#2C2C30" stroke-width="1"/>
+    <text x="52" y="364" class="text" font-size="13.8" font-weight="500" fill="#8E8E93">
+      <tspan fill="#F5F5F7" font-weight="600">Stanford, CA</tspan>   ·   PhD Uppsala · Karolinska · DKFZ   ·   <tspan fill="#F5F5F7" font-weight="600">Nextflow Ambassador</tspan> · Sigma Xi
     </text>
 
-    <!-- RIGHT MOTION GRAPHIC: 3D-FEEL EQUIVARIANT MOLECULAR DOCKING & NEURAL POCKET -->
-    <g transform="translate(972, 180)">
-      <!-- Radar Energy Pulses -->
-      <circle cx="0" cy="0" r="34" fill="none" stroke="#22D3EE" class="radar-1"/>
-      <circle cx="0" cy="0" r="34" fill="none" stroke="#8B5CF6" class="radar-2"/>
-
-      <!-- Outer Rotating Protein Binding-Pocket Orbital Rings -->
-      <g opacity="0.72">
-        <ellipse cx="0" cy="0" rx="134" ry="62" fill="none" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="6 6">
-          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
+    <!-- RIGHT EXPLANATORY MOTION GRAPHIC: SE(3) PROTEIN-LIGAND BINDING POCKET -->
+    <g transform="translate(974, 200)">
+      <!-- Calm rotating concentric binding-pocket orbitals -->
+      <g opacity="0.78">
+        <ellipse cx="0" cy="0" rx="142" ry="66" fill="none" stroke="#0A84FF" stroke-opacity="0.28" stroke-width="1.3" stroke-dasharray="6 6">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="42s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="0" cy="0" rx="116" ry="52" fill="none" stroke="#A78BFA" stroke-opacity="0.34" stroke-width="1.2" transform="rotate(60)">
-          <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="-300 0 0" dur="28s" repeatCount="indefinite"/>
+        <ellipse cx="0" cy="0" rx="124" ry="56" fill="none" stroke="#BF5AF2" stroke-opacity="0.30" stroke-width="1.3" transform="rotate(60)">
+          <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="-300 0 0" dur="34s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="0" cy="0" rx="106" ry="48" fill="none" stroke="#F43F5E" stroke-opacity="0.24" stroke-width="1.1" transform="rotate(-55)">
-          <animateTransform attributeName="transform" type="rotate" from="-55 0 0" to="305 0 0" dur="32s" repeatCount="indefinite"/>
+        <ellipse cx="0" cy="0" rx="112" ry="50" fill="none" stroke="#40C8E0" stroke-opacity="0.24" stroke-width="1.2" transform="rotate(-55)">
+          <animateTransform attributeName="transform" type="rotate" from="-55 0 0" to="305 0 0" dur="38s" repeatCount="indefinite"/>
         </ellipse>
       </g>
 
-      <!-- Outer Protein Residue Graph Nodes + Non-Covalent H-Bond Interaction Tracks -->
-      <g>
-        <path id="hb1" d="M -112 -64 Q -56 -48 -28 -16" fill="none" stroke="#38BDF8" stroke-width="1.4" class="hbond" opacity="0.75"/>
-        <path id="hb2" d="M 118 -54 Q 64 -38 28 -16" fill="none" stroke="#A78BFA" stroke-width="1.4" class="hbond" opacity="0.75"/>
-        <path id="hb3" d="M 104 78 Q 52 52 28 16" fill="none" stroke="#34D399" stroke-width="1.4" class="hbond" opacity="0.75"/>
-        <path id="hb4" d="M -108 72 Q -54 46 -28 16" fill="none" stroke="#FB7185" stroke-width="1.4" class="hbond" opacity="0.75"/>
-        <path id="hb5" d="M 0 -116 Q 10 -68 0 -32" fill="none" stroke="#F59E0B" stroke-width="1.3" class="hbond" opacity="0.7"/>
+      <!-- Non-covalent H-bond & pi-stacking tracks with explanatory interaction packets -->
+      <path d="M -114 -68 Q -58 -50 -30 -18" fill="none" stroke="#0A84FF" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 118 -58 Q 64 -40 30 -18" fill="none" stroke="#BF5AF2" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 108 82 Q 54 54 30 18" fill="none" stroke="#30D158" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M -110 76 Q -56 48 -30 18" fill="none" stroke="#FF375F" stroke-width="1.6" class="hbond" opacity="0.65"/>
+      <path d="M 0 -122 Q 10 -72 0 -36" fill="none" stroke="#FF9F0A" stroke-width="1.5" class="hbond" opacity="0.65"/>
 
-        <!-- Animated Energy Packets Traveling Along Interaction Paths -->
-        <circle r="3.2" fill="#22D3EE" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.6s" repeatCount="indefinite" path="M -112 -64 Q -56 -48 -28 -16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.6s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.2" fill="#C4B5FD" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="3.1s" repeatCount="indefinite" path="M 118 -54 Q 64 -38 28 -16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.1s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.0" fill="#34D399" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.9s" repeatCount="indefinite" path="M 104 78 Q 52 52 28 16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.9s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="3.0" fill="#FB7185" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="3.4s" repeatCount="indefinite" path="M -108 72 Q -54 46 -28 16"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="3.4s" repeatCount="indefinite"/>
-        </circle>
-        <circle r="2.8" fill="#FBBF24" opacity="0" filter="url(#glowSoft)">
-          <animateMotion dur="2.4s" repeatCount="indefinite" path="M 0 -116 Q 10 -68 0 -32"/>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.4s" repeatCount="indefinite"/>
-        </circle>
+      <circle r="3.4" fill="#0A84FF" opacity="0">
+        <animateMotion dur="3.0s" repeatCount="indefinite" path="M -114 -68 Q -58 -50 -30 -18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.0s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.4" fill="#BF5AF2" opacity="0">
+        <animateMotion dur="3.5s" repeatCount="indefinite" path="M 118 -58 Q 64 -40 30 -18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.2" fill="#30D158" opacity="0">
+        <animateMotion dur="3.2s" repeatCount="indefinite" path="M 108 82 Q 54 54 30 18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.2" fill="#FF375F" opacity="0">
+        <animateMotion dur="3.8s" repeatCount="indefinite" path="M -110 76 Q -56 48 -30 18"/>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.14;0.86;1" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
 
-        <!-- Outer Residue Nodes -->
-        <circle cx="-112" cy="-64" r="7" fill="#0F172A" stroke="#22D3EE" stroke-width="2" filter="url(#glowSoft)"/>
-        <circle cx="118" cy="-54" r="7.5" fill="#0F172A" stroke="#A78BFA" stroke-width="2" filter="url(#glowSoft)"/>
-        <circle cx="104" cy="78" r="7" fill="#0F172A" stroke="#34D399" stroke-width="2" filter="url(#glowSoft)"/>
-        <circle cx="-108" cy="72" r="6.5" fill="#0F172A" stroke="#FB7185" stroke-width="2" filter="url(#glowSoft)"/>
-        <circle cx="0" cy="-116" r="6" fill="#0F172A" stroke="#F59E0B" stroke-width="2" filter="url(#glowSoft)"/>
-        <circle cx="-4" cy="112" r="5" fill="#0F172A" stroke="#38BDF8" stroke-width="1.6" class="breathe"/>
+      <!-- Binding-pocket residue nodes -->
+      <circle cx="-114" cy="-68" r="7.5" fill="#1C1C1F" stroke="#0A84FF" stroke-width="2.4"/>
+      <circle cx="118" cy="-58" r="7.5" fill="#1C1C1F" stroke="#BF5AF2" stroke-width="2.4"/>
+      <circle cx="108" cy="82" r="7.5" fill="#1C1C1F" stroke="#30D158" stroke-width="2.4"/>
+      <circle cx="-110" cy="76" r="7" fill="#1C1C1F" stroke="#FF375F" stroke-width="2.4"/>
+      <circle cx="0" cy="-122" r="6.5" fill="#1C1C1F" stroke="#FF9F0A" stroke-width="2.4"/>
+
+      <!-- Central Aromatic Ligand Core (calm, anchored — no 0.2 Hz bobbing) -->
+      <polygon points="0,-36 31,-18 31,18 0,36 -31,18 -31,-18" fill="#1C1C1F" stroke="url(#ligandRing)" stroke-width="3" filter="url(#cardShadow)"/>
+      <polygon points="0,-23 20,-11.5 20,11.5 0,23 -20,11.5 -20,-11.5" fill="none" stroke="#0A84FF" stroke-opacity="0.4" stroke-width="1.4" stroke-dasharray="14 6"/>
+      <line x1="31" y1="-18" x2="56" y2="-31" stroke="#BF5AF2" stroke-width="2.4"/>
+      <circle cx="58" cy="-32" r="5.5" fill="#BF5AF2"/>
+      <line x1="-31" y1="18" x2="-56" y2="31" stroke="#0A84FF" stroke-width="2.4"/>
+      <circle cx="-58" cy="32" r="5.5" fill="#0A84FF"/>
+      <line x1="0" y1="36" x2="0" y2="62" stroke="#30D158" stroke-width="2.4"/>
+      <circle cx="0" cy="64" r="5.2" fill="#30D158"/>
+      <text x="0" y="5" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#F5F5F7">SE(3)</text>
+
+      <!-- Clean Anchored Micro-Tags (12.5px, static for effortless reading) -->
+      <g transform="translate(-170, -142)">
+        <rect x="0" y="0" width="106" height="28" rx="14" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="53" y="18.5" text-anchor="middle" class="mono" font-size="12.2" font-weight="600" fill="#64B5FF">ΔΔG · FEP</text>
       </g>
-
-      <!-- Floating Central Aromatic Small-Molecule Ligand Core -->
-      <g class="float-main">
-        <!-- Core Glow -->
-        <circle cx="0" cy="0" r="42" fill="#22D3EE" fill-opacity="0.10" filter="url(#glowStrong)"/>
-        <!-- Hexagonal Aromatic Ring -->
-        <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="#0F172A" fill-opacity="0.88" stroke="url(#ligandStroke)" stroke-width="2.6" filter="url(#glowSoft)"/>
-        <!-- Inner Aromatic Double-Bond Ring -->
-        <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="none" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="1.3" stroke-dasharray="14 6"/>
-        <!-- Side Substituent Bonds -->
-        <line x1="28" y1="-16" x2="52" y2="-28" stroke="#A78BFA" stroke-width="2.2"/>
-        <circle cx="54" cy="-29" r="5.2" fill="#A78BFA" filter="url(#glowSoft)"/>
-        <line x1="-28" y1="16" x2="-52" y2="28" stroke="#22D3EE" stroke-width="2.2"/>
-        <circle cx="-54" cy="29" r="5.2" fill="#22D3EE" filter="url(#glowSoft)"/>
-        <line x1="0" y1="32" x2="0" y2="56" stroke="#34D399" stroke-width="2.2"/>
-        <circle cx="0" cy="58" r="4.8" fill="#34D399" filter="url(#glowSoft)"/>
-
-        <!-- Ring Vertices (Atoms) -->
-        <circle cx="0" cy="-32" r="4.2" fill="#F8FAFC"/>
-        <circle cx="28" cy="-16" r="4.2" fill="#67E8F9"/>
-        <circle cx="28" cy="16" r="4.2" fill="#C4B5FD"/>
-        <circle cx="0" cy="32" r="4.2" fill="#6EE7B7"/>
-        <circle cx="-28" cy="16" r="4.2" fill="#FDA4AF"/>
-        <circle cx="-28" cy="-16" r="4.2" fill="#67E8F9"/>
-
-        <!-- Center Label -->
-        <text x="0" y="4" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E0F2FE">SE(3)</text>
+      <g transform="translate(86, -142)">
+        <rect x="0" y="0" width="102" height="28" rx="14" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="51" y="18.5" text-anchor="middle" class="mono" font-size="12.2" font-weight="600" fill="#6EE792">MLIP · QM</text>
       </g>
-
-      <!-- Floating Scientific Telemetry Micro-Tags (outer g positions, inner g animates) -->
-      <g transform="translate(-162, -124)">
-        <g class="float-badge-1">
-          <rect x="0" y="0" width="94" height="22" rx="6" fill="#0F172A" fill-opacity="0.9" stroke="#22D3EE" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="47" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#67E8F9">ΔΔG · FEP</text>
-        </g>
-      </g>
-
-      <g transform="translate(88, 108)">
-        <g class="float-badge-2">
-          <rect x="0" y="0" width="96" height="22" rx="6" fill="#0F172A" fill-opacity="0.9" stroke="#A78BFA" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="48" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#DDD6FE">R = 0.88</text>
-        </g>
-      </g>
-
-      <g transform="translate(96, -120)">
-        <g class="float-badge-1">
-          <rect x="0" y="0" width="88" height="22" rx="6" fill="#0F172A" fill-opacity="0.9" stroke="#34D399" stroke-opacity="0.48" stroke-width="1"/>
-          <text x="44" y="14.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#6EE7B7">MLIP · QM</text>
-        </g>
+      <g transform="translate(78, 118)">
+        <rect x="0" y="0" width="112" height="28" rx="14" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
+        <text x="56" y="18.5" text-anchor="middle" class="mono num" font-size="12.2" font-weight="600" fill="#DDA0FF">R = 0.88</text>
       </g>
     </g>
   </g>
 
-  <!-- Crisp Outer Glass Border -->
-  <rect x="2" y="2" width="1196" height="356" rx="22" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="396" rx="26" fill="none" stroke="#2C2C30" stroke-width="1.2"/>
 </svg>

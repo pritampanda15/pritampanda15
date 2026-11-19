@@ -72,34 +72,36 @@ def replace_block(content: str, start_marker: str, end_marker: str, body: str) -
 
 def render_github_telemetry_svg(stats: dict, theme: str = "dark") -> str:
     dark = theme == "dark"
-    bg0, bg1 = ("#060A16", "#0D1429") if dark else ("#FFFFFF", "#F1F5F9")
-    card0, card1 = ("#111B36", "#0A1022") if dark else ("#FFFFFF", "#F8FAFC")
-    border = "#1E293B" if dark else "#CBD5E1"
-    track = "#1E293B" if dark else "#E2E8F0"
-    ink = "#F8FAFC" if dark else "#0F172A"
-    sub = "#CBD5E1" if dark else "#334155"
-    muted = "#94A3B8" if dark else "#475569"
-    header_col = "#38BDF8" if dark else "#0284C7"
-    pill_bg = "#0F172A" if dark else "#F1F5F9"
+    bg0, bg1 = ("#0A0A0C", "#111114") if dark else ("#F5F5F7", "#EFEFF4")
+    card = "#1C1C1F" if dark else "#FFFFFF"
+    border = "#2C2C30" if dark else "#E2E2E7"
+    card_border = "#2C2C30" if dark else "#E5E5EA"
+    top_spec_op = "0.14" if dark else "0.95"
+    shadow_op = "0.35" if dark else "0.055"
+    track = "#2C2C30" if dark else "#E8E8ED"
+    ink = "#F5F5F7" if dark else "#1D1D1F"
+    sub = "#D1D1D6" if dark else "#424245"
+    muted = "#8E8E93" if dark else "#6E6E73"
+    pill_bg = "#1C1C1F" if dark else "#FFFFFF"
 
     lang_colors = {
-        "Python": "#38BDF8" if dark else "#0284C7",
-        "HTML": "#F97316",
-        "Jupyter Notebook": "#A78BFA" if dark else "#7C3AED",
-        "TypeScript": "#3B82F6",
-        "JavaScript": "#FBBF24" if dark else "#D97706",
-        "Shell": "#34D399" if dark else "#059669",
-        "Swift": "#FB7185" if dark else "#E11D48",
-        "Nextflow": "#10B981",
-        "R": "#60A5FA" if dark else "#2563EB",
-        "Other": "#64748B",
+        "Python": "#0A84FF" if dark else "#0071E3",
+        "HTML": "#FF9F0A" if dark else "#D97706",
+        "Jupyter Notebook": "#BF5AF2" if dark else "#8944AB",
+        "TypeScript": "#40C8E0" if dark else "#007A8C",
+        "JavaScript": "#FFD60A" if dark else "#C27803",
+        "Shell": "#30D158" if dark else "#248A3D",
+        "Swift": "#FF375F" if dark else "#D70015",
+        "Nextflow": "#30D158" if dark else "#248A3D",
+        "R": "#64D2FF" if dark else "#0284C7",
+        "Other": "#8E8E93" if dark else "#86868B",
     }
 
-    # Build stacked language bar (total width=530, x=18, y=58)
+    # Build stacked language bar (total width=522, x=22, y=64)
     langs = stats["top_langs"]
-    gap = 2.0
-    bar_w = 530.0 - gap * max(0, len(langs) - 1)
-    x_cursor = 18.0
+    gap = 3.0
+    bar_w = 522.0 - gap * max(0, len(langs) - 1)
+    x_cursor = 22.0
     bar_segments: list[str] = []
     legend_items: list[str] = []
     total_lang = sum(c for _, c in langs) or 1
@@ -108,113 +110,107 @@ def render_github_telemetry_svg(stats: dict, theme: str = "dark") -> str:
         pct = count / total_lang
         seg_w = max(8.0, round(bar_w * pct, 1))
         if idx == len(langs) - 1:
-            seg_w = max(4.0, round(18.0 + 530.0 - x_cursor, 1))
-        col = lang_colors.get(lang, "#64748B")
+            seg_w = max(4.0, round(22.0 + 522.0 - x_cursor, 1))
+        col = lang_colors.get(lang, "#8E8E93")
         bar_segments.append(
-            f'      <rect x="{x_cursor:.1f}" y="58" width="{seg_w:.1f}" height="12" rx="3" fill="{col}" class="p-bar"/>'
+            f'      <rect x="{x_cursor:.1f}" y="64" width="{seg_w:.1f}" height="14" rx="4" fill="{col}"/>'
         )
         x_cursor += seg_w + gap
 
-        # 2 columns x 3 rows legend
         col_i = idx % 2
         row_i = idx // 2
-        lx = 18 + col_i * 264
-        ly = 95 + row_i * 25
-        short_lang = lang if len(lang) <= 18 else lang[:16] + "…"
+        lx = 22 + col_i * 268
+        ly = 108 + row_i * 30
+        short_lang = lang if len(lang) <= 16 else lang[:15] + "…"
         legend_items.append(
-            f'      <circle cx="{lx + 5}" cy="{ly - 4}" r="4.5" fill="{col}"/>\n'
-            f'      <text x="{lx + 16}" y="{ly}" class="mono" font-size="11.2" fill="{sub}">{html.escape(short_lang)}</text>\n'
-            f'      <text x="{lx + 244}" y="{ly}" text-anchor="end" class="mono" font-size="11.2" font-weight="700" fill="{ink}">{pct * 100:.1f}% <tspan fill="{muted}" font-weight="400">({count})</tspan></text>'
+            f'      <circle cx="{lx + 6}" cy="{ly - 4.5}" r="5" fill="{col}"/>\n'
+            f'      <text x="{lx + 18}" y="{ly}" class="text" font-size="13.8" font-weight="500" fill="{sub}">{html.escape(short_lang)}</text>\n'
+            f'      <text x="{lx + 248}" y="{ly}" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="{ink}">{pct * 100:.1f}% <tspan fill="{muted}" font-weight="400">({count})</tspan></text>'
         )
 
-    # Top 4 repositories mini-leaderboard (right card)
+    # Top 4 repositories leaderboard (right card)
     repo_rows: list[str] = []
     max_stars = max((r["stars"] for r in stats["top_repos"]), default=1) or 1
     row_colors = [
-        "#F59E0B",
-        "#06B6D4" if dark else "#0891B2",
-        "#8B5CF6" if dark else "#7C3AED",
-        "#10B981" if dark else "#059669",
+        "#FF9F0A" if dark else "#D97706",
+        "#0A84FF" if dark else "#0071E3",
+        "#BF5AF2" if dark else "#8944AB",
+        "#30D158" if dark else "#248A3D",
     ]
     for idx, repo in enumerate(stats["top_repos"][:4]):
-        ry = 56 + idx * 30
+        ry = 62 + idx * 34
         name = repo["name"]
-        if len(name) > 22:
-            name = name[:20] + "…"
-        bar_len = max(14, int(195 * (repo["stars"] / max_stars)))
+        if len(name) > 19:
+            name = name[:18] + "…"
+        bar_len = max(14, int(196 * (repo["stars"] / max_stars)))
         col = row_colors[idx % len(row_colors)]
         repo_rows.append(
-            f'      <text x="18" y="{ry + 11}" class="mono" font-size="11.5" font-weight="700" fill="{ink}">{html.escape(name)}</text>\n'
-            f'      <rect x="218" y="{ry + 2}" width="195" height="9" rx="4.5" fill="{track}"/>\n'
-            f'      <rect x="218" y="{ry + 2}" width="{bar_len}" height="9" rx="4.5" fill="{col}" class="p-bar"/>\n'
-            f'      <text x="534" y="{ry + 11}" text-anchor="end" class="mono" font-size="11" font-weight="700" fill="{sub}">★ {repo["stars"]}  <tspan fill="{muted}" font-weight="400">⑂ {repo["forks"]}</tspan></text>'
+            f'      <text x="22" y="{ry + 12}" class="text" font-size="14" font-weight="600" fill="{ink}">{html.escape(name)}</text>\n'
+            f'      <rect x="208" y="{ry + 2}" width="196" height="11" rx="5.5" fill="{track}"/>\n'
+            f'      <rect x="208" y="{ry + 2}" width="{bar_len}" height="11" rx="5.5" fill="{col}" class="bar-in"/>\n'
+            f'      <text x="544" y="{ry + 12}" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="{ink}">★ {repo["stars"]}  <tspan fill="{muted}" font-weight="500">⑂ {repo["forks"]}</tspan></text>'
         )
 
     updated = stats["updated_utc"]
     kpis = [
-        ("TOTAL STARS", f'{stats["stars"]:,}', "Owned original repos", "#F59E0B", "#FDE68A" if dark else "#B45309"),
-        ("ORIGINAL REPOS", f'{stats["original_repos"]}', f'{stats["public_repos"]} total public', "#22D3EE" if dark else "#0891B2", "#67E8F9" if dark else "#0E7490"),
-        ("TOTAL FORKS", f'{stats["forks"]:,}', "Community adoption", "#8B5CF6" if dark else "#7C3AED", "#DDD6FE" if dark else "#5B21B6"),
-        ("FOLLOWERS", f'{stats["followers"]:,}', "Global research network", "#10B981" if dark else "#059669", "#6EE7B7" if dark else "#047857"),
+        ("TOTAL STARS", f'{stats["stars"]:,}', "Owned original repos", "#FF9F0A" if dark else "#D97706", "#FFC66D" if dark else "#8F3F00"),
+        ("ORIGINAL REPOS", f'{stats["original_repos"]}', f'{stats["public_repos"]} total public', "#0A84FF" if dark else "#0071E3", "#64B5FF" if dark else "#0055B3"),
+        ("TOTAL FORKS", f'{stats["forks"]:,}', "Community adoption", "#BF5AF2" if dark else "#8944AB", "#DDA0FF" if dark else "#6B2E8A"),
+        ("FOLLOWERS", f'{stats["followers"]:,}', "Global research network", "#30D158" if dark else "#248A3D", "#6EE792" if dark else "#186A2D"),
     ]
     kpi_blocks: list[str] = []
-    for idx, (label, val, caption, stroke_col, accent_col) in enumerate(kpis):
+    for idx, (label, val, caption, accent, accent_ink) in enumerate(kpis):
         kx = 24 + idx * 292
         kpi_blocks.append(
-            f'  <g transform="translate({kx}, 46)">\n'
-            f'    <rect x="0" y="0" width="276" height="92" rx="13" fill="url(#gtCard)" stroke="{stroke_col}" stroke-opacity="0.4" stroke-width="1.2"/>\n'
-            f'    <circle cx="18" cy="20" r="3.5" fill="{stroke_col}" class="p-dot"/>\n'
-            f'    <text x="29" y="24" class="mono" font-size="10" font-weight="700" fill="{accent_col}" letter-spacing="0.8">{label}</text>\n'
-            f'    <text x="18" y="60" class="sans" font-size="31" font-weight="800" fill="{ink}" letter-spacing="-0.6">{val}</text>\n'
-            f'    <text x="18" y="79" class="mono" font-size="10.5" fill="{muted}">{caption}</text>\n'
+            f'  <g transform="translate({kx}, 54)">\n'
+            f'    <rect x="0" y="0" width="276" height="116" rx="18" fill="{card}" stroke="{card_border}" stroke-width="1" filter="url(#cardShadow)"/>\n'
+            f'    <rect x="20" y="18" width="28" height="4" rx="2" fill="{accent}"/>\n'
+            f'    <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="{accent_ink}" letter-spacing="0.06em">{label}</text>\n'
+            f'    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="{ink}" letter-spacing="-1.2">{val}</text>\n'
+            f'    <text x="20" y="103" class="text" font-size="13.2" fill="{muted}">{caption}</text>\n'
             f"  </g>"
         )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 342" width="100%" role="img" aria-label="Live GitHub Engineering Telemetry for pritampanda15">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 404" width="100%" role="img" aria-label="Live GitHub Engineering Telemetry for pritampanda15">
   <defs>
     <linearGradient id="gtBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="{bg0}"/>
       <stop offset="100%" stop-color="{bg1}"/>
     </linearGradient>
-    <linearGradient id="gtCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="{card0}" stop-opacity="0.96"/>
-      <stop offset="100%" stop-color="{card1}" stop-opacity="0.98"/>
-    </linearGradient>
+    <filter id="cardShadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="{shadow_op}"/>
+    </filter>
     <style>
-      .sans {{ font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }}
-      .mono {{ font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }}
-      @keyframes pulseSoft {{
-        0%, 100% {{ opacity: 1; }}
-        50% {{ opacity: 0.65; }}
-      }}
-      .p-bar {{ animation: pulseSoft 3.6s ease-in-out infinite; }}
-      .p-dot {{ animation: pulseSoft 2.4s ease-in-out infinite; }}
+      .display {{ font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }}
+      .text {{ font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }}
+      .num {{ font-variant-numeric: tabular-nums; }}
     </style>
   </defs>
 
-  <rect x="2" y="2" width="1196" height="338" rx="20" fill="url(#gtBg)" stroke="{border}" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="400" rx="24" fill="url(#gtBg)" stroke="{border}" stroke-width="1.2"/>
+  <line x1="26" y1="3" x2="1174" y2="3" stroke="#FFFFFF" stroke-opacity="{top_spec_op}" stroke-width="1.2"/>
 
-  <text x="26" y="31" class="mono" font-size="11.5" font-weight="700" fill="{header_col}" letter-spacing="1.5">GITHUB ENGINEERING TELEMETRY · @PRITAMPANDA15</text>
-  <rect x="976" y="13" width="200" height="22" rx="6" fill="{pill_bg}" stroke="{border}"/>
-  <text x="1076" y="27.5" text-anchor="middle" class="mono" font-size="10" fill="{muted}">SYNCED {updated}</text>
+  <text x="28" y="34" class="text" font-size="13" font-weight="700" fill="{muted}" letter-spacing="0.08em">GITHUB ENGINEERING TELEMETRY · @PRITAMPANDA15</text>
+  <rect x="978" y="14" width="198" height="28" rx="14" fill="{pill_bg}" stroke="{card_border}"/>
+  <text x="1077" y="32" text-anchor="middle" class="text num" font-size="12" font-weight="600" fill="{muted}">Synced {updated}</text>
 
 {chr(10).join(kpi_blocks)}
 
-  <!-- Bottom Left: Language Distribution across Original Repositories -->
-  <g transform="translate(24, 152)">
-    <rect x="0" y="0" width="566" height="172" rx="14" fill="url(#gtCard)" stroke="{border}" stroke-width="1.2"/>
-    <text x="18" y="27" class="sans" font-size="14.5" font-weight="700" fill="{ink}">Primary Language Distribution</text>
-    <text x="548" y="27" text-anchor="end" class="mono" font-size="10.2" fill="{muted}">ACROSS {stats["original_repos"]} ORIGINAL REPOS</text>
-    <rect x="18" y="58" width="530" height="12" rx="4" fill="{track}"/>
+  <!-- Bottom Left: Primary Language Distribution -->
+  <g transform="translate(24, 186)">
+    <rect x="0" y="0" width="566" height="196" rx="18" fill="{card}" stroke="{card_border}" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="22" y="34" class="display" font-size="18.5" font-weight="700" fill="{ink}" letter-spacing="-0.25">Primary Languages</text>
+    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="{muted}">{stats["original_repos"]} Original Repos</text>
+    <rect x="22" y="64" width="522" height="14" rx="5" fill="{track}"/>
 {chr(10).join(bar_segments)}
 {chr(10).join(legend_items)}
   </g>
 
-  <!-- Bottom Right: Most-Starred Open-Source Repositories -->
-  <g transform="translate(610, 152)">
-    <rect x="0" y="0" width="566" height="172" rx="14" fill="url(#gtCard)" stroke="{border}" stroke-width="1.2"/>
-    <text x="18" y="27" class="sans" font-size="14.5" font-weight="700" fill="{ink}">Top Starred Open-Source Tools</text>
-    <text x="548" y="27" text-anchor="end" class="mono" font-size="10.2" fill="{muted}">LIVE GITHUB STARS &amp; FORKS</text>
+  <!-- Bottom Right: Top Starred Open-Source Tools -->
+  <g transform="translate(610, 186)">
+    <rect x="0" y="0" width="566" height="196" rx="18" fill="{card}" stroke="{card_border}" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="22" y="34" class="display" font-size="18.5" font-weight="700" fill="{ink}" letter-spacing="-0.25">Top Starred Open-Source</text>
+    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="{muted}">Live Stars &amp; Forks</text>
 {chr(10).join(repo_rows)}
   </g>
 </svg>

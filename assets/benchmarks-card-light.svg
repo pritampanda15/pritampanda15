@@ -1,166 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" role="img" aria-label="Quantitative Benchmarks — Alchemistry 2027, PandaDock GPU Speedup, Arc Virtual Cell 2026, Revilico Virtual Cell OS">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 404" width="100%" role="img" aria-label="Quantitative Benchmarks across Alchemistry 2027, PandaDock, Arc Virtual Cell 2026 and Revilico">
   <defs>
-    <linearGradient id="bmBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F1F5F9"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F5F7"/>
+      <stop offset="100%" stop-color="#EFEFF4"/>
     </linearGradient>
-    <linearGradient id="bmCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.98"/>
-    </linearGradient>
-    <linearGradient id="bGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#D97706"/>
-    </linearGradient>
-    <linearGradient id="bCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#0891B2"/>
-    </linearGradient>
-    <linearGradient id="bViolet" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </linearGradient>
-    <linearGradient id="bEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#059669"/>
-    </linearGradient>
-    <linearGradient id="bRose" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E11D48"/>
-      <stop offset="100%" stop-color="#E11D48"/>
-    </linearGradient>
+        <filter id="cardShadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.055"/>
+    </filter>
     <style>
-      .sans { font-family: 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .mono { font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }
-      @keyframes pulseSoft {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.62; }
-      }
-      @keyframes waveGlow {
-        0%, 100% { stroke-opacity: 0.95; }
-        50% { stroke-opacity: 0.45; }
-      }
-      .p-bar { animation: pulseSoft 3.4s ease-in-out infinite; }
-      .p-wave { animation: waveGlow 2.8s ease-in-out infinite; }
+
+      .display { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace; }
+      .num { font-variant-numeric: tabular-nums; }
+
+
+      /* Restraint (remove-animations): zero hidden opacity:0 start states on static/functional cards */
+
     </style>
   </defs>
 
-  <!-- Outer Frame -->
-  <rect x="2" y="2" width="1196" height="336" rx="20" fill="url(#bmBg)" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="400" rx="24" fill="url(#bg)" stroke="#E2E2E7" stroke-width="1.2"/>
+  <line x1="26" y1="3" x2="1174" y2="3" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="1.2"/>
 
-  <!-- Header -->
-  <text x="26" y="32" class="mono" font-size="11.5" font-weight="700" fill="#B45309" letter-spacing="1.5">QUANTITATIVE BENCHMARKS &amp; BLIND CHALLENGE TELEMETRY</text>
-  <text x="1174" y="32" text-anchor="end" class="mono" font-size="10.5" fill="#475569">VERIFIED PERFORMANCE · BLIND PROSPECTIVE &amp; PRODUCTION METRICS</text>
+  <text x="28" y="34" class="text" font-size="13" font-weight="700" fill="#6E6E73" letter-spacing="0.08em">QUANTITATIVE BENCHMARKS &amp; BLIND CHALLENGES</text>
+  <text x="1172" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="#6E6E73">Verified Prospective &amp; Production Telemetry</text>
 
-  <!-- 2x2 Grid: width=566 each, height=130 each, gapX=20, gapY=16; margins x=24, y=48 -->
+  <!-- CARD 1: Alchemistry 2027 -->
+  <g transform="translate(24, 54)">
+    <g class="e-lead">
+      <rect x="0" y="0" width="566" height="158" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+      <text x="22" y="34" class="display" font-size="19" font-weight="700" fill="#1D1D1F" letter-spacing="-0.3">OpenADMET / Alchemistry 2027</text>
+      <rect x="372" y="14" width="174" height="28" rx="14" fill="#FFF5EB" stroke="#F5D0A9"/>
+      <text x="459" y="32.5" text-anchor="middle" class="text" font-size="12" font-weight="700" fill="#8F3F00">#1 Indep. · 2nd Overall</text>
+      <text x="22" y="60" class="text" font-size="14" fill="#6E6E73">Blind RBFE in OpenFE · Crystal #1 Zero-Fit Affinity Ranking</text>
 
-  <!-- CARD 1 (Top-Left): Alchemistry 2027 Blind RBFE -->
-  <g transform="translate(24, 48)">
-    <rect x="0" y="0" width="566" height="132" rx="14" fill="url(#bmCard)" stroke="#F59E0B" stroke-opacity="0.42" stroke-width="1.2"/>
-    <text x="18" y="26" class="sans" font-size="15" font-weight="700" fill="#0F172A">OpenADMET / ASAP Alchemistry 2027</text>
-    <rect x="378" y="10" width="170" height="22" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-opacity="0.55"/>
-    <text x="463" y="24.5" text-anchor="middle" class="mono" font-size="10.2" font-weight="700" fill="#92400E">#1 INDEP. · 2ND OVERALL</text>
+      <text x="22" y="96" class="text" font-size="14" font-weight="600" fill="#424245">Spearman ρ</text>
+      <rect x="128" y="84" width="352" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="84" width="232" height="14" rx="7" fill="#D97706" class="bar-in"/>
+      <text x="546" y="96" text-anchor="end" class="display num" font-size="16" font-weight="700" fill="#8F3F00">0.66</text>
 
-    <text x="18" y="48" class="mono" font-size="10.8" fill="#475569">Blind RBFE in OpenFE · Crystal #1 Zero-Fit · Prospective Affinity Ranking</text>
-
-    <!-- Metric Row 1: Spearman rho = 0.66 -->
-    <text x="18" y="78" class="mono" font-size="11" fill="#334155">Spearman ρ</text>
-    <rect x="116" y="68" width="360" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="68" width="238" height="11" rx="5.5" fill="url(#bGold)" class="p-bar"/>
-    <text x="490" y="78" class="mono" font-size="12" font-weight="700" fill="#92400E">0.66</text>
-
-    <!-- Metric Row 2: Kendall tau = 0.48 -->
-    <text x="18" y="106" class="mono" font-size="11" fill="#334155">Kendall τ</text>
-    <rect x="116" y="96" width="360" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="96" width="173" height="11" rx="5.5" fill="url(#bCyan)" class="p-bar"/>
-    <text x="490" y="106" class="mono" font-size="12" font-weight="700" fill="#0E7490">0.48</text>
-  </g>
-
-  <!-- CARD 2 (Top-Right): PandaDock PDBbind & GPU Speedup -->
-  <g transform="translate(610, 48)">
-    <rect x="0" y="0" width="566" height="132" rx="14" fill="url(#bmCard)" stroke="#22D3EE" stroke-opacity="0.42" stroke-width="1.2"/>
-    <text x="18" y="26" class="sans" font-size="15" font-weight="700" fill="#0F172A">PandaDock · SE(3) GNN + CUDA Engine</text>
-    <rect x="386" y="10" width="162" height="22" rx="6" fill="#CFFAFE" stroke="#22D3EE" stroke-opacity="0.55"/>
-    <text x="467" y="24.5" text-anchor="middle" class="mono" font-size="10.2" font-weight="700" fill="#0E7490">PEARSON R = 0.88</text>
-
-    <text x="18" y="48" class="mono" font-size="10.8" fill="#475569">Trained on 741k complexes · PDBbind Refined Set · 17-Engine DockingSuite</text>
-
-    <!-- Metric Row 1: PDBbind R = 0.88 -->
-    <text x="18" y="78" class="mono" font-size="11" fill="#334155">PDBbind R</text>
-    <rect x="116" y="68" width="350" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="68" width="308" height="11" rx="5.5" fill="url(#bCyan)" class="p-bar"/>
-    <text x="478" y="78" class="mono" font-size="12" font-weight="700" fill="#0E7490">0.88</text>
-
-    <!-- Metric Row 2: GPU Speedup vs CPU -->
-    <text x="18" y="106" class="mono" font-size="11" fill="#334155">GPU Speed</text>
-    <rect x="116" y="96" width="350" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="96" width="16" height="11" rx="5.5" fill="#475569"/>
-    <rect x="116" y="96" width="322" height="11" rx="5.5" fill="url(#bViolet)" fill-opacity="0.92" class="p-bar"/>
-    <text x="478" y="106" class="mono" font-size="11.5" font-weight="700" fill="#5B21B6">8.5–35×</text>
-  </g>
-
-  <!-- CARD 3 (Bottom-Left): Arc Institute Virtual Cell Challenge 2026 -->
-  <g transform="translate(24, 194)">
-    <rect x="0" y="0" width="566" height="128" rx="14" fill="url(#bmCard)" stroke="#8B5CF6" stroke-opacity="0.42" stroke-width="1.2"/>
-    <text x="18" y="26" class="sans" font-size="15" font-weight="700" fill="#0F172A">Arc Institute Virtual Cell Challenge 2026</text>
-    <rect x="404" y="10" width="144" height="22" rx="6" fill="#EDE9FE" stroke="#A78BFA" stroke-opacity="0.55"/>
-    <text x="476" y="24.5" text-anchor="middle" class="mono" font-size="10.2" font-weight="700" fill="#5B21B6">1,648 TEAMS</text>
-
-    <text x="18" y="48" class="mono" font-size="10.8" fill="#475569">Blind Zero-Shot CRISPRi Perturbation · 900 Unseen Gene Knockdowns</text>
-
-    <!-- Mini Sparkline Visualization of Perturbation Trajectory -->
-    <g transform="translate(18, 62)">
-      <rect x="0" y="0" width="318" height="48" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
-      <!-- Perturbation Bars -->
-      <rect x="16" y="24" width="10" height="16" rx="2" fill="#0891B2" fill-opacity="0.72"/>
-      <rect x="34" y="14" width="10" height="26" rx="2" fill="#0284C7" fill-opacity="0.82"/>
-      <rect x="52" y="28" width="10" height="12" rx="2" fill="#7C3AED" fill-opacity="0.75"/>
-      <rect x="70" y="10" width="10" height="30" rx="2" fill="#6D28D9" fill-opacity="0.88"/>
-      <rect x="88" y="18" width="10" height="22" rx="2" fill="#0891B2" fill-opacity="0.8"/>
-      <rect x="106" y="22" width="10" height="18" rx="2" fill="#059669" fill-opacity="0.8"/>
-      <rect x="124" y="8" width="10" height="32" rx="2" fill="#6D28D9" fill-opacity="0.92"/>
-      <rect x="142" y="20" width="10" height="20" rx="2" fill="#0891B2" fill-opacity="0.75"/>
-      <rect x="160" y="12" width="10" height="28" rx="2" fill="#059669" fill-opacity="0.85"/>
-      <rect x="178" y="26" width="10" height="14" rx="2" fill="#D97706" fill-opacity="0.82"/>
-      <rect x="196" y="14" width="10" height="26" rx="2" fill="#6D28D9" fill-opacity="0.85"/>
-      <rect x="214" y="18" width="10" height="22" rx="2" fill="#0891B2" fill-opacity="0.85"/>
-      <rect x="232" y="10" width="10" height="30" rx="2" fill="#059669" fill-opacity="0.88"/>
-      <rect x="250" y="22" width="10" height="18" rx="2" fill="#7C3AED" fill-opacity="0.75"/>
-      <rect x="268" y="14" width="10" height="26" rx="2" fill="#0891B2" fill-opacity="0.85"/>
-      <rect x="286" y="19" width="10" height="21" rx="2" fill="#6D28D9" fill-opacity="0.8"/>
-      <polyline points="21,24 39,14 57,28 75,10 93,18 111,22 129,8 147,20 165,12 183,26 201,14 219,18 237,10 255,22 273,14 291,19" fill="none" stroke="#0F172A" stroke-width="1.5" class="p-wave"/>
-    </g>
-
-    <!-- Right Stat Callouts -->
-    <g transform="translate(352, 62)">
-      <rect x="0" y="0" width="94" height="48" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-opacity="0.35"/>
-      <text x="47" y="22" text-anchor="middle" class="sans" font-size="16" font-weight="800" fill="#5B21B6">900</text>
-      <text x="47" y="38" text-anchor="middle" class="mono" font-size="9.5" fill="#475569">KNOCKDOWNS</text>
-
-      <rect x="102" y="0" width="94" height="48" rx="8" fill="#ECFEFF" stroke="#0891B2" stroke-opacity="0.35"/>
-      <text x="149" y="22" text-anchor="middle" class="sans" font-size="16" font-weight="800" fill="#0E7490">0.099</text>
-      <text x="149" y="38" text-anchor="middle" class="mono" font-size="9.5" fill="#475569">BLIND SCORE</text>
+      <text x="22" y="132" class="text" font-size="14" font-weight="600" fill="#424245">Kendall τ</text>
+      <rect x="128" y="120" width="352" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="120" width="169" height="14" rx="7" fill="#0071E3" class="bar-in"/>
+      <text x="546" y="132" text-anchor="end" class="display num" font-size="16" font-weight="700" fill="#0055B3">0.48</text>
     </g>
   </g>
 
-  <!-- CARD 4 (Bottom-Right): Revilico Virtual Cell OS & Active Learning Scale -->
-  <g transform="translate(610, 194)">
-    <rect x="0" y="0" width="566" height="128" rx="14" fill="url(#bmCard)" stroke="#10B981" stroke-opacity="0.42" stroke-width="1.2"/>
-    <text x="18" y="26" class="sans" font-size="15" font-weight="700" fill="#0F172A">Virtual Cell OS &amp; Active Learning Scale</text>
-    <rect x="386" y="10" width="162" height="22" rx="6" fill="#D1FAE5" stroke="#34D399" stroke-opacity="0.55"/>
-    <text x="467" y="24.5" text-anchor="middle" class="mono" font-size="10.2" font-weight="700" fill="#047857">PHASE II CLINICAL</text>
+  <!-- CARD 2: PandaDock -->
+  <g transform="translate(610, 54)">
+    <g class="e-sup1">
+      <rect x="0" y="0" width="566" height="158" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+      <text x="22" y="34" class="display" font-size="19" font-weight="700" fill="#1D1D1F" letter-spacing="-0.3">PandaDock · SE(3) GNN + CUDA</text>
+      <rect x="394" y="14" width="152" height="28" rx="14" fill="#EDF5FF" stroke="#BFDDFC"/>
+      <text x="470" y="32.5" text-anchor="middle" class="text num" font-size="12.2" font-weight="700" fill="#0055B3">Pearson R = 0.88</text>
+      <text x="22" y="60" class="text" font-size="14" fill="#6E6E73">Trained on 741k complexes · PDBbind Refined · 17-Engine Suite</text>
 
-    <text x="18" y="48" class="mono" font-size="10.8" fill="#475569">Revilico RevViability (467k pairs, 5 assays) · DoD/DARPA Active Learning</text>
+      <text x="22" y="96" class="text" font-size="14" font-weight="600" fill="#424245">PDBbind R</text>
+      <rect x="128" y="84" width="340" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="84" width="299" height="14" rx="7" fill="#0071E3" class="bar-in"/>
+      <text x="546" y="96" text-anchor="end" class="display num" font-size="16" font-weight="700" fill="#0055B3">0.88</text>
 
-    <!-- Metric Row 1: RevViability R2 = 0.87 -->
-    <text x="18" y="76" class="mono" font-size="11" fill="#334155">RevViab R²</text>
-    <rect x="116" y="66" width="350" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="66" width="305" height="11" rx="5.5" fill="url(#bEmerald)" class="p-bar"/>
-    <text x="478" y="76" class="mono" font-size="12" font-weight="700" fill="#047857">0.87</text>
+      <text x="22" y="132" class="text" font-size="14" font-weight="600" fill="#424245">GPU Speed</text>
+      <rect x="128" y="120" width="340" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="120" width="316" height="14" rx="7" fill="#8944AB" class="bar-in"/>
+      <text x="546" y="132" text-anchor="end" class="display num" font-size="15.5" font-weight="700" fill="#6B2E8A">8.5–35×</text>
+    </g>
+  </g>
 
-    <!-- Metric Row 2: Wet-Lab Reduction 60% -->
-    <text x="18" y="104" class="mono" font-size="11" fill="#334155">Wet-Lab Cut</text>
-    <rect x="116" y="94" width="350" height="11" rx="5.5" fill="#E2E8F0"/>
-    <rect x="116" y="94" width="210" height="11" rx="5.5" fill="url(#bRose)" class="p-bar"/>
-    <text x="478" y="104" class="mono" font-size="12" font-weight="700" fill="#BE123C">-60%</text>
+  <!-- CARD 3: Arc Virtual Cell 2026 -->
+  <g transform="translate(24, 228)">
+    <g class="e-sup2">
+      <rect x="0" y="0" width="566" height="156" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+      <text x="22" y="34" class="display" font-size="19" font-weight="700" fill="#1D1D1F" letter-spacing="-0.3">Arc Virtual Cell Challenge 2026</text>
+      <rect x="418" y="14" width="128" height="28" rx="14" fill="#F6EFFB" stroke="#DFC6F0"/>
+      <text x="482" y="32.5" text-anchor="middle" class="text num" font-size="12.2" font-weight="700" fill="#6B2E8A">1,648 Teams</text>
+      <text x="22" y="60" class="text" font-size="14" fill="#6E6E73">Blind Zero-Shot CRISPRi Perturbation across 900 Knockdowns</text>
+
+      <g transform="translate(22, 78)">
+        <rect x="0" y="0" width="298" height="58" rx="12" fill="#F5F5F7" stroke="#E5E5EA"/>
+        <rect x="16" y="30" width="11" height="16" rx="3" fill="#0071E3" fill-opacity="0.82"/>
+        <rect x="33" y="20" width="11" height="26" rx="3" fill="#0071E3" fill-opacity="0.82"/>
+        <rect x="50" y="33" width="11" height="13" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <rect x="67" y="16" width="11" height="30" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <rect x="84" y="24" width="11" height="22" rx="3" fill="#007A8C" fill-opacity="0.82"/>
+        <rect x="101" y="27" width="11" height="19" rx="3" fill="#248A3D" fill-opacity="0.82"/>
+        <rect x="118" y="14" width="11" height="32" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <rect x="135" y="26" width="11" height="20" rx="3" fill="#0071E3" fill-opacity="0.82"/>
+        <rect x="152" y="18" width="11" height="28" rx="3" fill="#248A3D" fill-opacity="0.82"/>
+        <rect x="169" y="31" width="11" height="15" rx="3" fill="#D97706" fill-opacity="0.82"/>
+        <rect x="186" y="20" width="11" height="26" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <rect x="203" y="24" width="11" height="22" rx="3" fill="#0071E3" fill-opacity="0.82"/>
+        <rect x="220" y="16" width="11" height="30" rx="3" fill="#248A3D" fill-opacity="0.82"/>
+        <rect x="237" y="28" width="11" height="18" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <rect x="254" y="21" width="11" height="25" rx="3" fill="#0071E3" fill-opacity="0.82"/>
+        <rect x="271" y="25" width="11" height="21" rx="3" fill="#8944AB" fill-opacity="0.82"/>
+        <polyline points="21.5,30 38.5,20 55.5,33 72.5,16 89.5,24 106.5,27 123.5,14 140.5,26 157.5,18 174.5,31 191.5,20 208.5,24 225.5,16 242.5,28 259.5,21 276.5,25" fill="none" stroke="#1D1D1F" stroke-opacity="0.7" stroke-width="1.6"/>
+      </g>
+
+      <g transform="translate(336, 78)">
+        <rect x="0" y="0" width="100" height="58" rx="12" fill="#F6EFFB" stroke="#DFC6F0"/>
+        <text x="50" y="29" text-anchor="middle" class="display num" font-size="22" font-weight="800" fill="#6B2E8A">900</text>
+        <text x="50" y="48" text-anchor="middle" class="text" font-size="11.5" font-weight="600" fill="#6E6E73">Knockdowns</text>
+
+        <rect x="110" y="0" width="100" height="58" rx="12" fill="#EDF5FF" stroke="#BFDDFC"/>
+        <text x="160" y="29" text-anchor="middle" class="display num" font-size="22" font-weight="800" fill="#0055B3">0.099</text>
+        <text x="160" y="48" text-anchor="middle" class="text" font-size="11.5" font-weight="600" fill="#6E6E73">Blind Score</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 4: Revilico Virtual Cell OS & Active Learning -->
+  <g transform="translate(610, 228)">
+    <g class="e-sup3">
+      <rect x="0" y="0" width="566" height="156" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
+      <text x="22" y="34" class="display" font-size="19" font-weight="700" fill="#1D1D1F" letter-spacing="-0.3">Virtual Cell OS &amp; Active Learning</text>
+      <rect x="394" y="14" width="152" height="28" rx="14" fill="#ECF9EF" stroke="#B8E6C3"/>
+      <text x="470" y="32.5" text-anchor="middle" class="text" font-size="12.2" font-weight="700" fill="#186A2D">Phase II Clinical</text>
+      <text x="22" y="60" class="text" font-size="14" fill="#6E6E73">Revilico RevViability (467k pairs) · DoD/DARPA Active Learning</text>
+
+      <text x="22" y="96" class="text" font-size="14" font-weight="600" fill="#424245">RevViab R²</text>
+      <rect x="128" y="84" width="340" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="84" width="296" height="14" rx="7" fill="#248A3D" class="bar-in"/>
+      <text x="546" y="96" text-anchor="end" class="display num" font-size="16" font-weight="700" fill="#186A2D">0.87</text>
+
+      <text x="22" y="132" class="text" font-size="14" font-weight="600" fill="#424245">Wet-Lab Cut</text>
+      <rect x="128" y="120" width="340" height="14" rx="7" fill="#E8E8ED"/>
+      <rect x="128" y="120" width="204" height="14" rx="7" fill="#D70015" class="bar-in"/>
+      <text x="546" y="132" text-anchor="end" class="display num" font-size="16" font-weight="700" fill="#AD0011">−60%</text>
+    </g>
   </g>
 </svg>
