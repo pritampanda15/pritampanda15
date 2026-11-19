@@ -345,9 +345,9 @@ I’m an **AI for Science & Computational Drug Discovery Scientist** at **Stanfo
 
 <!-- 100% Uptime Actions-Generated Visuals (Never affected by external Vercel rate limits) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pritampanda15/pritampanda15/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pritampanda15/pritampanda15/output/github-contribution-grid-snake.svg">
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/pritampanda15/pritampanda15/output/github-contribution-grid-snake-dark.svg" width="98%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pritampanda15/pritampanda15/gh-pages/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pritampanda15/pritampanda15/gh-pages/github-contribution-grid-snake.svg">
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/pritampanda15/pritampanda15/gh-pages/github-contribution-grid-snake-dark.svg" width="98%">
 </picture>
 
 <br/><br/>
