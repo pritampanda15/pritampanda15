@@ -19,27 +19,27 @@
 
   <text x="28" y="34" class="text" font-size="13" font-weight="700" fill="#6E6E73" letter-spacing="0.08em">GITHUB ENGINEERING TELEMETRY · @PRITAMPANDA15</text>
   <rect x="978" y="14" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#E5E5EA"/>
-  <text x="1077" y="32" text-anchor="middle" class="text num" font-size="12" font-weight="600" fill="#6E6E73">Synced 2026-11-23 UTC</text>
+  <text x="1077" y="32" text-anchor="middle" class="text num" font-size="12" font-weight="600" fill="#6E6E73">Synced 2026-11-24 UTC</text>
 
   <g transform="translate(24, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#D97706"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#8F3F00" letter-spacing="0.06em">TOTAL STARS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">443</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">415</text>
     <text x="20" y="103" class="text" font-size="13.2" fill="#6E6E73">Owned original repos</text>
   </g>
   <g transform="translate(316, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#0071E3"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#0055B3" letter-spacing="0.06em">ORIGINAL REPOS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">31</text>
-    <text x="20" y="103" class="text" font-size="13.2" fill="#6E6E73">31 total public</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">24</text>
+    <text x="20" y="103" class="text" font-size="13.2" fill="#6E6E73">24 total public</text>
   </g>
   <g transform="translate(608, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#8944AB"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#6B2E8A" letter-spacing="0.06em">TOTAL FORKS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">136</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#1D1D1F" letter-spacing="-1.2">120</text>
     <text x="20" y="103" class="text" font-size="13.2" fill="#6E6E73">Community adoption</text>
   </g>
   <g transform="translate(900, 54)">
@@ -54,32 +54,32 @@
   <g transform="translate(24, 186)">
     <rect x="0" y="0" width="566" height="196" rx="18" fill="#FFFFFF" stroke="#E5E5EA" stroke-width="1" filter="url(#cardShadow)"/>
     <text x="22" y="34" class="display" font-size="18.5" font-weight="700" fill="#1D1D1F" letter-spacing="-0.25">Primary Languages</text>
-    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="#6E6E73">31 Original Repos</text>
+    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="#6E6E73">24 Original Repos</text>
     <rect x="22" y="64" width="522" height="14" rx="5" fill="#E8E8ED"/>
-      <rect x="22.0" y="64" width="310.7" height="14" rx="4" fill="#0071E3"/>
-      <rect x="335.7" y="64" width="65.4" height="14" rx="4" fill="#D97706"/>
-      <rect x="404.1" y="64" width="32.7" height="14" rx="4" fill="#248A3D"/>
-      <rect x="439.8" y="64" width="16.4" height="14" rx="4" fill="#D70015"/>
-      <rect x="459.2" y="64" width="16.4" height="14" rx="4" fill="#248A3D"/>
-      <rect x="478.6" y="64" width="65.4" height="14" rx="4" fill="#86868B"/>
+      <rect x="22.0" y="64" width="274.6" height="14" rx="4" fill="#0071E3"/>
+      <rect x="299.6" y="64" width="63.4" height="14" rx="4" fill="#D97706"/>
+      <rect x="366.0" y="64" width="21.1" height="14" rx="4" fill="#007A8C"/>
+      <rect x="390.1" y="64" width="21.1" height="14" rx="4" fill="#D70015"/>
+      <rect x="414.2" y="64" width="21.1" height="14" rx="4" fill="#248A3D"/>
+      <rect x="438.3" y="64" width="105.7" height="14" rx="4" fill="#86868B"/>
       <circle cx="28" cy="103.5" r="5" fill="#0071E3"/>
       <text x="40" y="108" class="text" font-size="13.8" font-weight="500" fill="#424245">Python</text>
-      <text x="270" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">61.3% <tspan fill="#6E6E73" font-weight="400">(19)</tspan></text>
+      <text x="270" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">54.2% <tspan fill="#6E6E73" font-weight="400">(13)</tspan></text>
       <circle cx="296" cy="103.5" r="5" fill="#D97706"/>
       <text x="308" y="108" class="text" font-size="13.8" font-weight="500" fill="#424245">HTML</text>
-      <text x="538" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">12.9% <tspan fill="#6E6E73" font-weight="400">(4)</tspan></text>
-      <circle cx="28" cy="133.5" r="5" fill="#248A3D"/>
-      <text x="40" y="138" class="text" font-size="13.8" font-weight="500" fill="#424245">Shell</text>
-      <text x="270" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">6.5% <tspan fill="#6E6E73" font-weight="400">(2)</tspan></text>
+      <text x="538" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">12.5% <tspan fill="#6E6E73" font-weight="400">(3)</tspan></text>
+      <circle cx="28" cy="133.5" r="5" fill="#007A8C"/>
+      <text x="40" y="138" class="text" font-size="13.8" font-weight="500" fill="#424245">TypeScript</text>
+      <text x="270" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">4.2% <tspan fill="#6E6E73" font-weight="400">(1)</tspan></text>
       <circle cx="296" cy="133.5" r="5" fill="#D70015"/>
       <text x="308" y="138" class="text" font-size="13.8" font-weight="500" fill="#424245">Swift</text>
-      <text x="538" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">3.2% <tspan fill="#6E6E73" font-weight="400">(1)</tspan></text>
+      <text x="538" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">4.2% <tspan fill="#6E6E73" font-weight="400">(1)</tspan></text>
       <circle cx="28" cy="163.5" r="5" fill="#248A3D"/>
-      <text x="40" y="168" class="text" font-size="13.8" font-weight="500" fill="#424245">Nextflow</text>
-      <text x="270" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">3.2% <tspan fill="#6E6E73" font-weight="400">(1)</tspan></text>
+      <text x="40" y="168" class="text" font-size="13.8" font-weight="500" fill="#424245">Shell</text>
+      <text x="270" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">4.2% <tspan fill="#6E6E73" font-weight="400">(1)</tspan></text>
       <circle cx="296" cy="163.5" r="5" fill="#86868B"/>
       <text x="308" y="168" class="text" font-size="13.8" font-weight="500" fill="#424245">Other</text>
-      <text x="538" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">12.9% <tspan fill="#6E6E73" font-weight="400">(4)</tspan></text>
+      <text x="538" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#1D1D1F">20.8% <tspan fill="#6E6E73" font-weight="400">(5)</tspan></text>
   </g>
 
   <!-- Bottom Right: Top Starred Open-Source Tools -->
