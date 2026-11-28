@@ -19,34 +19,34 @@
 
   <text x="28" y="34" class="text" font-size="13" font-weight="700" fill="#8E8E93" letter-spacing="0.08em">GITHUB ENGINEERING TELEMETRY · @PRITAMPANDA15</text>
   <rect x="978" y="14" width="198" height="28" rx="14" fill="#1C1C1F" stroke="#2C2C30"/>
-  <text x="1077" y="32" text-anchor="middle" class="text num" font-size="12" font-weight="600" fill="#8E8E93">Synced 2026-11-27 UTC</text>
+  <text x="1077" y="32" text-anchor="middle" class="text num" font-size="12" font-weight="600" fill="#8E8E93">Synced 2026-11-28 UTC</text>
 
   <g transform="translate(24, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#FF9F0A"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#FFC66D" letter-spacing="0.06em">TOTAL STARS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">430</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">435</text>
     <text x="20" y="103" class="text" font-size="13.2" fill="#8E8E93">Owned original repos</text>
   </g>
   <g transform="translate(316, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#0A84FF"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#64B5FF" letter-spacing="0.06em">ORIGINAL REPOS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">26</text>
-    <text x="20" y="103" class="text" font-size="13.2" fill="#8E8E93">26 total public</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">27</text>
+    <text x="20" y="103" class="text" font-size="13.2" fill="#8E8E93">27 total public</text>
   </g>
   <g transform="translate(608, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#BF5AF2"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#DDA0FF" letter-spacing="0.06em">TOTAL FORKS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">122</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">123</text>
     <text x="20" y="103" class="text" font-size="13.2" fill="#8E8E93">Community adoption</text>
   </g>
   <g transform="translate(900, 54)">
     <rect x="0" y="0" width="276" height="116" rx="18" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
     <rect x="20" y="18" width="28" height="4" rx="2" fill="#30D158"/>
     <text x="20" y="40" class="text" font-size="11.5" font-weight="700" fill="#6EE792" letter-spacing="0.06em">FOLLOWERS</text>
-    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">362</text>
+    <text x="20" y="82" class="display num" font-size="38" font-weight="800" fill="#F5F5F7" letter-spacing="-1.2">365</text>
     <text x="20" y="103" class="text" font-size="13.2" fill="#8E8E93">Global research network</text>
   </g>
 
@@ -54,32 +54,32 @@
   <g transform="translate(24, 186)">
     <rect x="0" y="0" width="566" height="196" rx="18" fill="#1C1C1F" stroke="#2C2C30" stroke-width="1" filter="url(#cardShadow)"/>
     <text x="22" y="34" class="display" font-size="18.5" font-weight="700" fill="#F5F5F7" letter-spacing="-0.25">Primary Languages</text>
-    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="#8E8E93">26 Original Repos</text>
+    <text x="544" y="34" text-anchor="end" class="text" font-size="13" font-weight="500" fill="#8E8E93">27 Original Repos</text>
     <rect x="22" y="64" width="522" height="14" rx="5" fill="#2C2C30"/>
-      <rect x="22.0" y="64" width="253.5" height="14" rx="4" fill="#0A84FF"/>
-      <rect x="278.5" y="64" width="58.5" height="14" rx="4" fill="#40C8E0"/>
-      <rect x="340.0" y="64" width="58.5" height="14" rx="4" fill="#FF9F0A"/>
-      <rect x="401.5" y="64" width="19.5" height="14" rx="4" fill="#FF375F"/>
-      <rect x="424.0" y="64" width="19.5" height="14" rx="4" fill="#30D158"/>
-      <rect x="446.5" y="64" width="97.5" height="14" rx="4" fill="#8E8E93"/>
+      <rect x="22.0" y="64" width="244.1" height="14" rx="4" fill="#0A84FF"/>
+      <rect x="269.1" y="64" width="56.3" height="14" rx="4" fill="#40C8E0"/>
+      <rect x="328.4" y="64" width="56.3" height="14" rx="4" fill="#FF9F0A"/>
+      <rect x="387.7" y="64" width="18.8" height="14" rx="4" fill="#FF375F"/>
+      <rect x="409.5" y="64" width="18.8" height="14" rx="4" fill="#30D158"/>
+      <rect x="431.3" y="64" width="112.7" height="14" rx="4" fill="#8E8E93"/>
       <circle cx="28" cy="103.5" r="5" fill="#0A84FF"/>
       <text x="40" y="108" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">Python</text>
-      <text x="270" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">50.0% <tspan fill="#8E8E93" font-weight="400">(13)</tspan></text>
+      <text x="270" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">48.1% <tspan fill="#8E8E93" font-weight="400">(13)</tspan></text>
       <circle cx="296" cy="103.5" r="5" fill="#40C8E0"/>
       <text x="308" y="108" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">TypeScript</text>
-      <text x="538" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">11.5% <tspan fill="#8E8E93" font-weight="400">(3)</tspan></text>
+      <text x="538" y="108" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">11.1% <tspan fill="#8E8E93" font-weight="400">(3)</tspan></text>
       <circle cx="28" cy="133.5" r="5" fill="#FF9F0A"/>
       <text x="40" y="138" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">HTML</text>
-      <text x="270" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">11.5% <tspan fill="#8E8E93" font-weight="400">(3)</tspan></text>
+      <text x="270" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">11.1% <tspan fill="#8E8E93" font-weight="400">(3)</tspan></text>
       <circle cx="296" cy="133.5" r="5" fill="#FF375F"/>
       <text x="308" y="138" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">Swift</text>
-      <text x="538" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">3.8% <tspan fill="#8E8E93" font-weight="400">(1)</tspan></text>
+      <text x="538" y="138" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">3.7% <tspan fill="#8E8E93" font-weight="400">(1)</tspan></text>
       <circle cx="28" cy="163.5" r="5" fill="#30D158"/>
       <text x="40" y="168" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">Shell</text>
-      <text x="270" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">3.8% <tspan fill="#8E8E93" font-weight="400">(1)</tspan></text>
+      <text x="270" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">3.7% <tspan fill="#8E8E93" font-weight="400">(1)</tspan></text>
       <circle cx="296" cy="163.5" r="5" fill="#8E8E93"/>
       <text x="308" y="168" class="text" font-size="13.8" font-weight="500" fill="#D1D1D6">Other</text>
-      <text x="538" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">19.2% <tspan fill="#8E8E93" font-weight="400">(5)</tspan></text>
+      <text x="538" y="168" text-anchor="end" class="text num" font-size="13.8" font-weight="700" fill="#F5F5F7">22.2% <tspan fill="#8E8E93" font-weight="400">(6)</tspan></text>
   </g>
 
   <!-- Bottom Right: Top Starred Open-Source Tools -->
